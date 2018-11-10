@@ -1,0 +1,45 @@
+baseURL = "http://networkreliability.engineering/"
+languageCode = "en-us"
+theme = "gohugo-theme-ananke"
+googleAnalytics = "UA-120903857-1"
+title = "Network Reliability Engineering"
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  author = "The NRE Team"
+  githubUsername = "nre-learning"
+  accent = "red"
+  showBorder = true
+  backgroundColor = "white"
+  font = "Raleway" # should match the name on Google Fonts!
+  highlight = true
+  highlightStyle = "solarized-dark"
+  highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+  favicon = ""
+  description = "Making Networks More Reliable Through Automation"
+  facebook = ""
+  twitter = "https://twitter.com/nrelabs"
+  instagram = ""
+  youtube = "https://www.youtube.com/channel/UCbfZq3sDGx6gmv7KRrhRh4g"
+  github = "https://twitter.com/nre-learning"
+  gitlab = ""
+  linkedin = ""
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  featured_image = "/images/keyboard.jpg"
+  recent_posts_number = 2
+
+[[menu.main]]
+name = "Free Labs!"
+weight = 0
+identifier = "labs3"
+url = "http://labs.networkreliability.engineering"
