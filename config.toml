@@ -1,4 +1,4 @@
-baseURL = "http://networkreliability.engineering/"
+baseURL = "http://blog.networkreliability.engineering/"
 languageCode = "en-us"
 theme = "gohugo-theme-ananke"
 googleAnalytics = "UA-120903857-1"
