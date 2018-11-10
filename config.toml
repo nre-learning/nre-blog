@@ -1,4 +1,4 @@
-baseURL = "http://blog.networkreliability.engineering/"
+baseURL = "https://blog.networkreliability.engineering/"
 languageCode = "en-us"
 theme = "gohugo-theme-ananke"
 googleAnalytics = "UA-120903857-1"
@@ -42,4 +42,4 @@ enableRobotsTXT = true
 name = "Free Labs!"
 weight = 0
 identifier = "labs3"
-url = "http://labs.networkreliability.engineering"
+url = "https://labs.networkreliability.engineering"
