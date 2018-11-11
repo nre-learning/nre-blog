@@ -14,6 +14,9 @@ enableRobotsTXT = true
   priority = 0.5
   filename = "sitemap.xml"
 
+[permalinks]
+  post = "/:year/:month/:title/"
+
 [params]
   author = "The NRE Team"
   githubUsername = "nre-learning"
