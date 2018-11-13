@@ -26,7 +26,7 @@ enableRobotsTXT = true
   font = "Raleway" # should match the name on Google Fonts!
   highlight = true
   highlightStyle = "solarized-dark"
-  highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+  highlightLanguages = ["go", "python", "haskell", "kotlin", "scala", "swift"]
   favicon = ""
   description = "Making Networks More Reliable Through Automation"
   facebook = ""
@@ -46,3 +46,15 @@ name = "Free Labs!"
 weight = 0
 identifier = "labs3"
 url = "https://labs.networkreliability.engineering"
+
+[outputs]
+home = ["HTML", "AMP", "RSS"]
+page = ["HTML"]
+
+[outputFormats]
+[outputFormats.HTML]
+mediaType = "text/html"
+
+[outputFormats.RSS]
+mediatype = "application/rss"
+baseName = "feed"
