@@ -5,8 +5,8 @@ featured_image: "/images/code.jpg"
 tags: []
 title: 'How NRE Labs Implements "Curriculum-as-Code"'
 show_reading_time: true
-author:
-  name: Matt Oswalt
+authors:
+- name: Matt Oswalt
   link: https://twitter.com/mierdin
 ---
 

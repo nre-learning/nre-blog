@@ -5,8 +5,8 @@ featured_image: "/images/nrelabs.png"
 tags: []
 title: "This Week in NRE Labs: Contributor Orientation"
 show_reading_time: true
-author:
-  name: Derick Winkworth
+authors:
+- name: Derick Winkworth
   link: https://twitter.com/cloudtoad
 ---
 

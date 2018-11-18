@@ -5,8 +5,8 @@ featured_image: "/images/bug.png"
 tags: []
 title: "This Week in NRE Labs: Network Verification with JSNAPy"
 show_reading_time: true
-author:
-  name: Matt Oswalt
+authors:
+- name: Matt Oswalt
   link: https://twitter.com/mierdin
 ---
 

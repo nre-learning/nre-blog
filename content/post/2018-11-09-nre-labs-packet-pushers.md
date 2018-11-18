@@ -5,8 +5,8 @@ featured_image: "/images/nrelabs.png"
 tags: []
 title: "NRE Labs on Packet Pushers"
 show_reading_time: true
-author:
-  name: Matt Oswalt
+authors:
+- name: Matt Oswalt
   link: https://twitter.com/mierdin
 ---
 
