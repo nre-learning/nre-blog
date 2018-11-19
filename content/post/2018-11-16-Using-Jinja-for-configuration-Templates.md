@@ -5,9 +5,11 @@ featured_image: "/images/jinja2.jpg"
 tags: []
 title: 'Using Jinja for Configuration Templates'
 show_reading_time: true
-author:
-  name: Bhoomi Shah, Shruti Pawaskar
-  link: https://github.com/shahbhoomi, https://github.com/ShrutiVPawaskar 
+authors:
+  - name: Bhoomi Shah
+    link: https://github.com/shahbhoomi
+  - name: Shruti Pawaskar
+    link: https://github.com/ShrutiVPawaskar 
 ---
 Have you ever faced a situation in which you had to configure multiple devices with the same configuration but with just a few changes in IP addresses/interface names? Did you spend hours configuring them individually or did you do it the smart way by using automation techniques? 
 ```
