@@ -6,10 +6,10 @@ tags: [verification, testing]
 title: "Using Robot Framework for Automated Testing"
 show_reading_time: true
 authors:
-  name: Saim Khan
-  link: https://github.com/saimkhan92
-  name: Lakshmi Rajan
-  link: https://github.com/lara29
+  - name: Saim Khan
+    link: https://github.com/saimkhan92
+  - name: Lakshmi Rajan
+    link: https://github.com/lara29
 ---
 Using automated testing frameworks help us create test cases that can be used to verify the operations on multiple devices with better code/test coverage, thereby reducing the testing cycle time.
 
