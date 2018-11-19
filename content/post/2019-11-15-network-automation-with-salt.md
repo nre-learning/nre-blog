@@ -5,12 +5,11 @@ featured_image: "/images/salt.jpg"
 tags: []
 title: 'Network Automation with Salt'
 show_reading_time: true
-author:
-  name: Vinayak Iyer
-  link: https://github.com/vinayak-skywalker
-author:
-  name: Sudhishna Sendhilvelan
-  link: https://github.com/Sudhishna
+authors:
+  - name: Vinayak Iyer
+    link: https://github.com/vinayak-skywalker
+  - name: Sudhishna Sendhilvelan
+    link: https://github.com/Sudhishna
 ---
 
 Salt helps in building an event-driven orchestration and automation of the infrastructure. We've added a lesson [Network Automation with Salt](https://labs.networkreliability.engineering/labs/?lessonId=30&lessonStage=1) to the NRE labs.
