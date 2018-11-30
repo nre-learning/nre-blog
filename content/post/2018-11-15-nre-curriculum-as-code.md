@@ -1,7 +1,7 @@
 ---
 date: 2018-11-14T00:00:00-00:00
 description: Applying automation principles to educational content.
-featured_image: "/images/code.jpg"
+featured_image: "https://networkreliability.engineering/images/code.jpg"
 tags: []
 title: 'How NRE Labs Implements "Curriculum-as-Code"'
 show_reading_time: true
