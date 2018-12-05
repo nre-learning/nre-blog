@@ -1,7 +1,7 @@
 ---
 date: 2018-12-04T00:00:00-00:00
-description: New lessons, features, and bugfixes.
-featured_image: /images/2018/12/thisisfine.jpg  # https://networkreliability.engineering
+description: When key/value stores attack!
+featured_image: https://networkreliability.engineering/images/2018/12/thisisfine.jpg
 tags: []
 title: 'December 4 - NRE Labs Outage Post-Mortem'
 show_reading_time: true
