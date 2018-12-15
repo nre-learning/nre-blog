@@ -6,11 +6,9 @@ featured_image: "/images/nrelabs.png"
 tags: [verification, testing]
 title: "Using Robot Framework for Automated Testing"
 show_reading_time: true
-authors:
+author:
   - name: Lakshmi Rajan
     link: https://github.com/lara29
-  - name: Saim Khan
-    link: https://github.com/saimkhan92
 ---
 `“Testing leads to failure, and failure leads to understanding”` - wisely said by the aviation-wizard Burt Rutan.
 
