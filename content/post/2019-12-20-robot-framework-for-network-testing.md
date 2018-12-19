@@ -1,5 +1,5 @@
 ---
-date: 2018-12-20T00:00:00-00:00
+date: 2018-12-19T00:00:00-00:00
 description: "Simple, efficient, and faster way to test your network devices"
 featured_image: "/images/nrelabs.png"
 tags: [verification, testing]
