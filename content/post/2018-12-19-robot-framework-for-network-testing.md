@@ -1,7 +1,7 @@
 ---
 date: 2018-12-19T00:00:00-00:00
 description: "Simple, efficient, and faster way to test your network devices"
-featured_image: "/images/nrelabs.png"
+featured_image: https://networkreliability.engineering/images/nrelabs.png
 tags: [verification, testing]
 title: "Using Robot Framework for Automated Testing"
 show_reading_time: true
