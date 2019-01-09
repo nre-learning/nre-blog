@@ -1,5 +1,5 @@
 ---
-date: 2019-12-30T00:00:00-00:00
+date: 2019-01-08T00:00:00-00:00
 description: Version 0.1.4 is live!
 featured_image: "https://networkreliability.engineering/images/nrelabs.png"
 tags: []
