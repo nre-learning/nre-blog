@@ -61,4 +61,4 @@ Isn’t it amazing how Jinja2 simplified the task of creating device-specific co
 
 If you want to configure your devices the smart way and learn Jinja2 without worrying about lab gear and installations, you can do that on [your browser for free!](https://labs.networkreliability.engineering/labs/?lessonId=16&lessonStage=1) We create a lot of fun lessons on different automation techniques on our NRE Labs.   
  
-We’re pushing new content to NRE Labs all the time. Follow us on Twitter @NRELabs for updates on new content, fixes, and related events.
+We’re pushing new content to NRE Labs all the time. Follow us on Twitter [@NRELabs](https://twitter.com/nrelabs) for updates on new content, fixes, and related events.
