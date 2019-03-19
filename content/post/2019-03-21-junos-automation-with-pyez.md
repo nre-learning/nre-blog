@@ -1,11 +1,10 @@
 ---
-date: 2019-01-17T00:00:00-00:00
+date: 2019-03-21T00:00:00-00:00
 description: "Manage your network in a programmable way."
 featured_image: "https://networkreliability.engineering/images/nrelabs.png"
 tags: [configuration]
 title: "Junos Automation with PyEZ"
 show_reading_time: true
-draft: true
 authors:
 - name: Raymond Lam
   link: https://github.com/jnpr-raylam
