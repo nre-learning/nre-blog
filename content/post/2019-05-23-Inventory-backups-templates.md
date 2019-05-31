@@ -16,7 +16,7 @@ This post will provide a little context around the new workflow lessons released
 
 __Lesson 33: Device Inventory__
 
-When you start using PyEz the "hello world" equivelant is printing the device `facts`. Its a simple function that prints device specific information like hostname, serial number, Junos version, etc. But that simple `facts` function can be used to create an incredibly useful device inventory script. It can be used to gather serial numbers for maintenance renewals, determining Junos versions to plan code upgrades, just to name a few. This lesson walks through a single device example as well as a multiple device example.
+When you start using PyEz the "hello world" equivalent is printing the device `facts`. Its a simple function that prints device specific information like hostname, serial number, Junos version, etc. But that simple `facts` function can be used to create an incredibly useful device inventory script. It can be used to gather serial numbers for maintenance renewals, determining Junos versions to plan code upgrades, just to name a few. This lesson walks through a single device example as well as a multiple device example.
 Check out the course [Quick and Easy Device Inventory](https://labs.networkreliability.engineering/labs/?lessonId=33&lessonStage=1)
 
 __Lesson 34: Configuration Backup__
