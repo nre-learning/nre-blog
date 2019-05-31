@@ -10,7 +10,7 @@ authors:
   link: https://github.com/jweidley
 ---
 
-NRE Labs has a lot of lessons that provide foundational information and skills on a host of automation tools but workflows is where you start bringing together a few of those tools to accomplish a specific task. The three new workflow lessons in release v0.3.2 are meant to help people bring automation to their production in a meaningful way using a craw, walk, run approach. When companies are first starting with automation its better to start with `readonly` type automation, simple tasks that if they fail are not going to cause an outage. After you get a couple `readonly` automation scripts working and folks are feeling comfortable with it then you can start to expand into more advanced workflows.
+NRE Labs has a lot of lessons that provide foundational information and skills on a host of automation tools but workflows are where you start bringing together a few of those tools to accomplish a specific task. The three new workflow lessons in release v0.3.2 are meant to help people bring automation to their production in a meaningful way using a crawl, walk, run approach. When companies are first starting with automation it's better to start with read-only type automation, simple tasks that if they fail are not going to cause an outage. After you get a couple of read-only automation scripts working and folks are feeling comfortable with it then you can start to expand into more advanced workflows.
 
 This post will provide a little context around the new workflow lessons released with v0.3.2 as well as discuss my experience with creating curriculum content.
 
