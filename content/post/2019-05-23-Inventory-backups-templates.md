@@ -1,5 +1,5 @@
 ---
-date: 2019-05-03T00:00:00-00:00
+date: 2019-05-29T00:00:00-00:00
 description: "Workflows for Device Inventory, Config Backup & Template Generation"
 featured_image: "https://networkreliability.engineering/images/nreBlogPost-may19.png"
 tags: [workflow]
