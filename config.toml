@@ -1,6 +1,7 @@
 baseURL = "https://networkreliability.engineering/"
 languageCode = "en-us"
-theme = "gohugo-theme-ananke"
+#theme = "gohugo-theme-ananke"
+theme = "hugo-bootstrap"
 googleAnalytics = "UA-120903857-1"
 title = "Network Reliability Engineering"
 MetaDataFormat = "yaml"

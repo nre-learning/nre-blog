@@ -5,5 +5,5 @@
 	path = themes/gohugo-theme-ananke
 	url = https://github.com/nre-learning/gohugo-theme-ananke.git
 [submodule "hugo-bootstrap"]
-	path = hugo-bootstrap
+	path = themes/hugo-bootstrap
 	url = https://github.com/Xzya/hugo-bootstrap
