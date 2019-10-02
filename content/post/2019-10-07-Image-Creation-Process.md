@@ -3,7 +3,7 @@ date: 2019-10-07T00:00:00-00:00
 description: ""
 featuredimage: ""
 tags: []
-title: "The Image Creation Process"
+title: "The Antidote Endpoint Image Creation Process"
 show_reading_time: true
 authors:
 - name: cloudtoad
