@@ -26,7 +26,7 @@ The completed ISO files for QEMU are stored in a Google Cloud Platform bucket.  
 
 ## Stage 2:  The Lesson Metafile
 
-Now that we have a base image, we need to start configuring it for a particular lesson at the time the lesson is launched.  This configuration starts with Syringe, the core component of the Antidote platform, reading the lesson metafile at the time a lesson is launched.
+Now that we have a base image, we need to start configuring it for a particular lesson at the time the lesson is launched.  This configuration starts with Syringe, the core component of the Antidote platform, reading the lesson metafile (`lesson.meta.yaml`) at the time a lesson is launched.
 
 This Metafile describes which images to use for the lesson, and how the user will interact with those images.  For instance, the user might use SSH, NetConf, or a REST API to interact with the image.  
 
