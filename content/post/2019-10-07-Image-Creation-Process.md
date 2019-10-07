@@ -22,7 +22,7 @@ In the case of applications like Asterisk PBX, Free-Range Routing, or Netbox ima
 
 Once we are done with the ISO image itself, we need to create a dockerfile for the image that recreates the steps we've taken above, then launches it with QEMU.  The launch script for this container should look for and create the right network interfaces with QEMU, and stitch them to the underlying interfaces in the container.  It should also pass a mount-point to the virtual-machine so it can mount the lesson and configuration files.  Finally, the launch script should ensure the right ports are being forwarded from the underlying primary interface of the container (“eth0”) to the primary interface of the virtual-machine.
 
-With a working dockerfile in hand, we commit it to github along with an appropriate Makefile.  This file will be called nightly to build and push the image to a repo on dockerhub.  Any raw, unmodified images (such as virtual-appliances obtain from vendors) will be stored in Google storage bucket.
+With a working dockerfile in hand, we commit it to github along with an appropriate Makefile.  This file will be called nightly to build and push the image to a repo on dockerhub.  Any raw, unmodified images (such as virtual-appliances obtain from vendors) will be stored in a Google storage bucket.
 
 
 ## Stage 2:  The Lesson Metafile
