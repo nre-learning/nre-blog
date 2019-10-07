@@ -37,7 +37,7 @@ So far so good.  The base images are launched, we can access them, and they are 
 
 ## Stage 3:  Virtual-Machine Configuration
 
-The final step in preparing the image for the user is to configure the applications in it.  This can be done a variety of ways, including via NetConf, Python, or Ansible.  First, though, this is the stage where the hostname and interface IP addresses of the virtual-machine are configured.  
+The final step in preparing the image for the user is to configure the applications in it. [This can be done a variety of ways](https://antidoteproject.readthedocs.io/en/latest/platform/curricula/lessons/configuration.html), including via NetConf, Python, or Ansible.  First, though, this is the stage where the hostname and interface IP addresses of the virtual-machine are configured.  
 
 Configuration files for the applications are copied from the mounted lesson directory to their appropriate locations.
 
