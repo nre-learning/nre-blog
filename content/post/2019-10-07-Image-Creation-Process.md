@@ -3,7 +3,7 @@ date: 2019-10-07T00:00:00-00:00
 description: ""
 featuredimage: ""
 tags: []
-title: "The Image Creation Process"
+title: "The Antidote Endpoint Image Creation Process"
 show_reading_time: true
 authors:
 - name: cloudtoad
@@ -27,7 +27,7 @@ With a working dockerfile in hand, we commit it to github along with an appropri
 
 ## Stage 2:  The Lesson Metafile
 
-Now that we have a base image, we need to start configuring it for a particular lesson at the time the lesson is launched.  This configuration starts with Syringe, the core component of the Antidote platform, reading the lesson metafile at the time a lesson is launched.
+Now that we have a base image, we need to start configuring it for a particular lesson at the time the lesson is launched.  This configuration starts with Syringe, the core component of the Antidote platform, reading the lesson metafile (`lesson.meta.yaml`) at the time a lesson is launched.
 
 This Metafile describes which images to use for the lesson, and how the user will interact with those images.  For instance, the user might use SSH, NetConf, or a REST API to interact with the image.  
 
