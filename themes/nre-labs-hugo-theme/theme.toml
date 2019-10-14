@@ -3,7 +3,7 @@ license = "Proprietary"
 description = "The theme for building the NRE Labs static site"
 homepage = "https://github.com/nlundquist/nre-labs-hugo-theme"
 features = ["posts", "shortcodes", "related content", "comments"]
-min_version = 0.58
+min_version = 0.49
 
 [author]
   name = "Nils Lundquist"
