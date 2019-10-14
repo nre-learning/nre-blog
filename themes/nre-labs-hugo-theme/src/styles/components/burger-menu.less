@@ -1,0 +1,63 @@
+.burger {
+  display: none;
+  cursor: pointer;
+
+  @media @tablet {
+    display: block;
+  };
+
+  .line {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px;
+  }
+
+  // allows transitioning to "X" icon
+  &.cross {
+    .line:nth-child(1) {
+      transform: rotate(-45deg) translate(-5px,6px);
+    }
+    .line:nth-child(2) {
+      opacity: 0;
+    }
+    .line:nth-child(3) {
+      transform: rotate(45deg) translate(-5px,-6px);
+    }
+  }
+}
+
+.burger-nav {
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  right: 0px;
+  top: 65px;
+  z-index: 1;
+  padding-top: @base-size;
+  background-color: @brand-dark;
+  font-size: 24px;
+  transition: transform 0.5s ease-in;
+  transform: translateX(100%);
+  list-style: none;
+
+  @media @tablet {
+    display: flex; // only visible in tablet and smaller
+  }
+
+  &.active {
+    transform: translateX(0%);
+  }
+
+  li {
+    margin: @sm-size 0 !important;
+  }
+
+  a {
+    .link-text
+  }
+}

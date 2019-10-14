@@ -1,0 +1,70 @@
+// todo: simplify
+.pagination-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  li {
+    display: inline-block;
+    align-items: center;
+    width: @md-size;
+    height: @md-size;
+    line-height: @md-size;
+    border-radius: 50%;
+    background: @brand-primary;
+    margin: 0 @md-size;
+    color: white;
+    position: relative;
+    cursor: pointer;
+
+    &:hover:after {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      content: attr(data-line);
+      background-color: #FFFFFF;
+      font-size: 14px;
+      color: #000000;
+      margin-top: -30px;
+      margin-left: -20px;
+      height: 25px;
+      width: 50px;
+      box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    }
+
+    &.active:hover:after {
+      display: none;
+    }
+  }
+
+  li::before{
+    position: absolute;
+    top: 5px;
+    content: '';
+    width: 50vw;
+    margin-left: -50vw;
+    height: @xs-size;
+    background: @brand-primary;
+    z-index: -1;
+  }
+
+  li:first-child::before {
+    background: white;
+    z-index: 0;
+  }
+
+  .active {
+    background: @brand-primary;
+    cursor: default;
+  }
+
+  .active ~ li {
+    background: #CCCCCC;
+  }
+
+  .active ~ li::before {
+    background: #CCCCCC;
+    z-index: -2;
+  }
+}

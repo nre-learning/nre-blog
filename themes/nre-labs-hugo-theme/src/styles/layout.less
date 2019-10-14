@@ -1,0 +1,264 @@
+// page root styles, including top-level header & footer
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+
+  & > header, & > footer {
+    display: flex;
+    align-items: center;
+    background-color: @brand-medium;
+    padding: 3px @sm-size;
+  }
+
+  & > header {
+    height: 65px;
+
+    @media @tablet {
+      justify-content: space-between;
+    }
+
+    .nav-list {
+      flex-grow: 1;
+
+      @media @tablet {
+        display: none;
+      }
+    }
+  }
+
+  & > footer {
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: @xl-size;
+    padding: @md-size @base-size;
+
+    .nav-list {
+      margin-bottom: @base-size;
+
+      &.social {
+        font-weight: 300;
+      }
+    }
+
+    @media @widescreen {
+      flex-direction: row;
+      align-items: center;
+
+      .copyright-info {
+        order: 1;
+      }
+
+      .nav-list.pages {
+        order: 2;
+        margin-bottom: 0;
+      }
+
+      .nav-list.social {
+        order: 3;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+section.main {
+  flex-grow: 1;
+  margin-top: @base-size;
+  margin-right: @base-size;
+  margin-left: @base-size;
+  max-width: 1400px;
+
+  @media @widescreen {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  > .content {
+    display: grid;
+    grid-template-columns: 1fr fit-content(30%);
+    grid-template-rows: max-content;
+    grid-template-areas:
+      "article aside"
+      "advisor aside";
+    row-gap: @md-size;
+
+    @media @tablet {
+      grid-template-areas:
+        "article"
+        "aside"
+        "advisor";
+    }
+
+    > article {
+      grid-area: article;
+    }
+
+    > aside {
+      grid-area: aside;
+      align-self: start;
+      // need to use margin instead of column-gap since we need this gap
+      // to disappear when aside tag is absent.
+      margin-left: @base-size;
+      padding-bottom: 27px;
+
+      @media @tablet {
+        margin-left: 0;
+      }
+    }
+
+    > .advisor {
+      grid-area: advisor;
+      align-self: start;
+    }
+  }
+}
+
+.canister {
+  border: 1px solid #979797;
+  border-radius: 0 0 4px 4px;
+  margin-top: @base-size;
+  padding: @xs-size @md-size;
+
+  &.primary {
+    border-top: 10px solid @brand-primary;
+  }
+
+  &.secondary {
+    border-top: 10px solid @brand-secondary;
+  }
+
+  &.dark {
+    border-top: 10px solid @brand-dark;
+  }
+}
+
+.three-col {
+  display: flex;
+
+  @media @phone {
+    flex-direction: column;
+  }
+
+  > * {
+    flex-grow: 1;
+    flex-basis: 33%;
+
+    &:not(:first-child) {
+      margin-left: @md-size;
+
+      @media @phone {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+.four-col {
+  display: flex;
+  flex-direction: row;
+
+  .filter {
+    width: 100%;
+  }
+
+  .input-wrapper {
+    margin-right: @lg-size;
+  }
+
+  @media @phone{
+    flex-direction: column;
+  }
+}
+
+.header-logo {
+  align-self: flex-start;
+  height: 85px;
+  width: 93px;
+  margin-right: @lg-size;
+  flex-shrink: 0;
+  z-index: 2;
+
+  @media @tablet {
+    margin-right: 0;
+  }
+}
+
+.hero-content {
+  display: flex;
+  margin-bottom: @base-size;
+
+  @media @tablet {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  > .left {
+    order: 1;
+
+    .primary {
+      padding-top: @sm-size;
+      padding-bottom: @sm-size;
+      margin-left: @md-size;
+    }
+  }
+
+  > .right {
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    order: 2;
+    min-width: 400px;
+    margin-left: @lg-size;
+
+    > img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    > .video-embed {
+      width: 100%;
+      min-height: 315px;
+    }
+
+    @media @tablet {
+      width: 100%;
+      margin-left: 0;
+      margin-top: @md-size;
+    }
+  }
+}
+
+.post-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: -@sm-size;
+
+  > article {
+    // 3 up
+    width: ~"calc(33.3% - @{base-size})";
+    margin-top: @base-size;
+
+    > img {
+      width: 100%;
+      height: 155px;
+      object-fit: cover;
+      object-position: top;
+    }
+
+    @media @tablet {
+      // 2 up
+      width: ~"calc(50% - @{base-size})";
+    }
+    @media @phone {
+      // 1 up
+      width: 100%;
+    }
+  }
+}

@@ -1,9 +1,0 @@
-[submodule "themes/minimal"]
-	path = themes/minimal
-	url = https://github.com/calintat/minimal.git
-[submodule "themes/gohugo-theme-ananke"]
-	path = themes/gohugo-theme-ananke
-	url = https://github.com/nre-learning/gohugo-theme-ananke.git
-[submodule "hugo-bootstrap"]
-	path = hugo-bootstrap
-	url = https://github.com/Xzya/hugo-bootstrap

@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <h1>Blogs</h1>
+
+  {{ .Content }}
+
+  <div class="post-list">
+    {{ range .Paginator.Pages }}
+      <article>
+        <img src="{{ .Params.featured_image }}" />
+        <a href="{{ .URL }}"><h3>{{ .Title }}</h3></a>
+        <p>
+          {{ .Summary }}
+        </p>
+      </article>
+    {{ end }}
+  </div>
+
+{{ partial "pagination" . }}
+{{ end }}

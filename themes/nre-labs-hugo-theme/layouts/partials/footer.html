@@ -1,0 +1,21 @@
+<footer>
+  <ul class="nav-list pages">
+    {{ partial "main-menu-items" . }}
+  </ul>
+
+  <ul class="nav-list social">
+    {{ $social := .Site.Menus.social }}
+
+    {{ range $social }}
+    <li>
+      <a href="{{ .URL }}" title="{{ .Name }}">{{ .Name }}</a>
+    </li>
+    {{ end }}
+  </ul>
+
+  <aside class="small copyright-info">
+    Built by the NRE Learning Team <br/>
+    The Antidote Project is published under Apache v2 <br/>
+    Your use of this site is governed by the Terms of Use <br/>
+  </aside>
+</footer>

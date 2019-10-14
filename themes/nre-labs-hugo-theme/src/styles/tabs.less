@@ -1,0 +1,31 @@
+.tab-wrapper {
+  display: flex;
+  list-style: none;
+  background-color: #D8D8D8;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 21px;
+  padding: 0;
+  width: 100%;
+
+  li {
+    padding: 15px 30px;
+    color: #262C2C;
+    cursor: pointer;
+    transition: background-color .25s ease-in-out;
+
+    &:hover {
+      background-color: #BBBBBB;
+    }
+  }
+
+  .tab-selected {
+    background-color: #262C2C;
+    color: #FFFFFF;
+    border-radius: 5px 5px 0 0;
+    cursor: default;
+
+    &:hover {
+      background-color: #262C2C;
+    }
+  }
+}

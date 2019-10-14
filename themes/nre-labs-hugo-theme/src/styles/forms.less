@@ -1,0 +1,135 @@
+@import "rSlider.min.less"; // include slider base styles
+@import "custom-inputs";
+
+input[type="text"], textarea {
+  background-color: #FFFFFF;
+  border: 1px solid #999999;
+  border-radius: 2px;
+  height: @base-size;
+  font-size: 16px;
+  color: #999999;
+  padding: 21px @md-size;
+  margin-bottom: @sm-size;
+  width: 100%;
+
+  &:disabled {
+    border: none;
+    background-color: @brand-light;
+  }
+  &::placeholder {
+    font-style: italic;
+    color: #CCCCCC;
+  }
+}
+
+textarea {
+  height: 100%;
+  padding: @sm-size;
+}
+
+.field-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+// todo: determine if we can eliminate this
+.input-wrapper {
+  position: relative;
+
+  &:before {
+    font-family: "feather";
+    font-size: 30px;
+    padding-right: 0;
+    position: absolute;
+    top: @xs-size;
+  }
+
+  .awesomplete {
+    position: relative;
+    width: 100%;
+
+    &:before {
+      position: absolute;
+      font-family: "feather";
+      content: "\e842";
+      color: @brand-dark;
+      font-size: 30px;
+      padding-right: 0;
+      position: absolute;
+      top: @xs-size;
+      right: @sm-size;
+    }
+  }
+}
+
+.input-success {
+  label {
+    color: @alert-success;
+  }
+  .input-wrapper:before {
+    content: "\e83f";
+    color: @alert-success;
+  }
+  input[type="text"] {
+    border-color: @alert-success;
+  }
+}
+
+.input-error {
+  label {
+    color: @alert-error;
+  }
+  .input-wrapper:before {
+    content: "\e8f6";
+    color: @alert-error;
+  }
+  input[type="text"] {
+    border-color: @alert-error;
+  }
+}
+
+// slider styles
+.slider-container {
+  margin-right: @lg-size;
+}
+
+.rs-container {
+  .rs-pointer {
+    background-color: #CCCCCC;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    left: -10px;
+    position: absolute;
+    top: 0;
+    transition: all .2s linear;
+    box-shadow: none;
+    height: 21px;
+    width: 21px;
+
+    &::after, &::before {
+      display: none;
+    }
+  }
+
+  .rs-scale span ins {
+    display: none;
+  }
+
+  .rs-selected, .rs-bg {
+    height: 5px;
+    top: 8px;
+  }
+
+  .rs-selected {
+    background-color: @brand-primary;
+    border: none;
+  }
+}
+
+.rs-tooltip {
+  background: transparent;
+  border: none;
+  transform: translate(-50%,30px);
+  left: 10px;
+}

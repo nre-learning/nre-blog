@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,minimum-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=PT+Mono|Roboto+Condensed:300,400|Roboto:300,400,500&display=fallback"
+        rel="stylesheet">
+  <link href="{{ relURL "dist/styles.css" }}" rel="stylesheet">
+
+  {{/* the Site's title, and if there is a page title, that is set too */}}
+  <title>
+    {{ block "title" . }}
+    {{ .Site.Title }}
+    {{ with .Params.Title }} | {{ . }}{{ end }}
+    {{ end }}
+  </title>
+
+  {{ .Hugo.Generator }}
+
+  {{/* NOTE: For Production make sure you add `HUGO_ENV="production"` before your build command */}}
+  {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
+  <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+  {{ else }}
+  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+  {{ end }}
+
+  {{ block "favicon" . }}
+    {{ partial "favicon.html" . }}
+  {{ end }}
+
+  {{ if .RSSLink }}
+  <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+  <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+  {{ end }}
+
+  {{/* NOTE: These Hugo Internal Templates can be found starting at https://github.com/spf13/hugo/blob/master/tpl/tplimpl/template_embedded.go#L158 */}}
+  {{- template "_internal/opengraph.html" . -}}
+  {{- template "_internal/google_news.html" . -}}
+  {{- template "_internal/schema.html" . -}}
+  {{- template "_internal/twitter_cards.html" . -}}
+
+  <!--  todo: is google analytics used? -->
+  {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
+  {{ template "_internal/google_analytics_async.html" . }}
+  {{ end }}
+</head>
+
+<body>
+{{ block "header" . }}{{ partial "header.html" .}}{{ end }}
+
+<section class="main {{ .Section }} {{if .IsPage }}page{{else}}index{{ end }}">
+  {{ block "main" . }}{{ end }}
+</section>
+
+{{ block "footer" . }}{{ partial "footer.html" . }}{{ end }}
+
+{{ block "scripts" . }}{{ partial "scripts.html" . }}{{ end }}
+</body>
+</html>

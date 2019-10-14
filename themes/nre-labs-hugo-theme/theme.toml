@@ -1,0 +1,10 @@
+name = "NRE Labs Hugo Theme"
+license = "Proprietary"
+description = "The theme for building the NRE Labs static site"
+homepage = "https://github.com/nlundquist/nre-labs-hugo-theme"
+features = ["posts", "shortcodes", "related content", "comments"]
+min_version = 0.58
+
+[author]
+  name = "Nils Lundquist"
+  homepage = "https://github.com/nlundqu"

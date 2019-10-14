@@ -1,0 +1,71 @@
+// typography
+@xxl-fontsize: 36px;
+@xl-fontsize: 28px;
+@l-fontsize: 21px;
+@md-fontsize: 16px;
+@sm-fontsize: 14px;
+
+h1, h2, h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 300;
+  margin-top: @sm-size;
+
+  &:not(:first-child) {
+    margin-top: @base-size;
+  }
+}
+
+h1 {
+  font-size: @xxl-fontsize;
+  line-height: 54px;
+
+  > * { // handle subtitle wrapping
+    display: inline-block;
+    white-space: nowrap;
+    vertical-align: baseline;
+  }
+
+  .subtitle {
+    font-size: @l-fontsize;
+    font-weight: 500;
+  }
+}
+
+h2 {
+  font-size: @xl-fontsize;
+  line-height: 42px;
+}
+
+h3 {
+  font-size: @l-fontsize;
+  line-height: 31px;
+  font-weight: 500;
+}
+
+p {
+  font-size: @md-fontsize;
+  color: #000000;
+  line-height: 32px;
+  margin-top: @sm-size;
+}
+
+a {
+  color: @alert-info;
+}
+
+.link-text {
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: all .25s ease-in-out;
+
+  &.active {
+    color: @brand-support;
+    font-weight: bold;
+    cursor: default;
+  }
+
+  &:hover {
+    color: @brand-light;
+    text-decoration: underline;
+  }
+}

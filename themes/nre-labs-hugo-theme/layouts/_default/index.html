@@ -1,0 +1,53 @@
+{{ define "main"}}
+  <div class="hero-content">
+    <div class="left">
+      <h1>{{ .Title }}</h1>
+      <h3>{{ .Params.description }}</h3>
+      {{ .Content }}
+    </div>
+
+    {{ if .Params.heroImageURL }}
+      <div class="right">
+        <img src="{{ .Params.heroImageURL }}" />
+      </div>
+    {{ else if .Params.heroVideoURL }}
+      <div class="right">
+        <iframe class="video-embed"
+                src="{{ .Params.heroVideoURL }}"
+                frameborder="0"
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+        </iframe>
+      </div>
+    {{ end }}
+  </div>
+
+  {{ partial "advisor.html" }}
+
+  <div class="three-col">
+    <div class="canister primary">
+      <h3>Not just for experts. </h3>
+      <p>
+        NRE Labs assumes nothing about your background or training. You don’t
+        have to set anything up, and lessons span from fundamentals to
+        workflows.
+      </p>
+    </div>
+    <div class="canister primary">
+      <h3>User-centric. No strings.</h3>
+      <p>
+        This is an educational platform aimed at helping the industry adopt
+        automation more readily. So no paywalls, no tracking, no spam.
+      </p>
+    </div>
+    <div class="canister primary">
+      <h3>Open. Yours to shape.</h3>
+      <p>
+        NRE Labs is built on Antidote, an open source project published on
+        <a href="https://github.com/nre-learning/antidote">Github</a> under an Apache v2
+        license.  Curriculum is published under Creative Commons. Anyone can
+        join the developer community!
+      </p>
+    </div>
+  </div>
+{{ end }}

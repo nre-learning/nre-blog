@@ -1,0 +1,44 @@
+.advisor {
+  display: grid;
+  grid-template-columns: 1fr min-content;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header"
+    "input button"
+    "aside .";
+  gap: @sm-size @sm-size;
+  align-items: center;
+
+  @media @tablet {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "header"
+      "input"
+      "button"
+      "aside";
+  }
+
+  h1 {
+    grid-area: header;
+  }
+
+  .input-wrapper {
+    grid-area: input;
+
+    input {
+      margin: 0;
+    }
+  }
+
+  .btn {
+    grid-area: button;
+    height: 48px;
+    min-width: 300px;
+    margin: 0;
+  }
+
+  aside {
+    grid-area: aside;
+    text-align: center;
+  }
+}

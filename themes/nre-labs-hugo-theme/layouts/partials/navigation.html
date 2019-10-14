@@ -1,0 +1,13 @@
+<ul class="nav-list">
+  {{ partial "main-menu-items" . }}
+</ul>
+
+<button class="btn cta">Find Lesson Content</button>
+
+<!--
+  implemented as distinct from above menu to avoid transitioning on page resize.
+  this prevents the menu from flickering when moving from the header to off-screen.
+-->
+<ul class="burger-nav">
+  {{ partial "main-menu-items" . }}
+</ul>

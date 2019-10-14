@@ -1,0 +1,178 @@
+@import (reference) "variables";
+
+.section {
+  margin: 45px 0;
+}
+
+.section-header {
+  font-family: "Roboto Condensed", Helvetica, Arial, serif;
+  font-size: 24px;
+  font-weight: 300;
+  color: #333;
+  line-height: 28px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 30px 0;
+
+  span {
+    color: #999;
+    margin-right: 10px;
+  }
+
+  &:after {
+    content: "";
+    border-top: 2px solid #CCC;
+    margin: 0 0 0 20px;
+    flex: 1 0 20px;
+  }
+}
+
+.details,
+.var,
+.hex {
+  font-family: "Roboto Condensed", Helvetica, Arial, serif;
+  font-size: 16px;
+  line-height: 2;
+  color: #666;
+  font-weight: 300;
+  margin-top: 10px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+
+  @media @phone {
+    .container {
+      flex-direction: column;
+      height: unset;
+    }
+  }
+}
+
+.full-width{
+  margin-top: 30px;
+}
+
+.nav {
+  background-color: #eeeeee;
+  flex: 0 0 auto;
+  padding: 30px 30px 0 30px;
+
+  ol {
+    list-style: none;
+    counter-reset: my-awesome-counter;
+
+    li {
+      counter-increment: my-awesome-counter;
+
+      &:before {
+        content: counter(my-awesome-counter);
+        margin-left: -10px;
+        margin-right: 10px;
+        color: #CCC;
+      }
+    }
+  }
+}
+.content {
+  padding: 30px;
+  flex: 1 1 auto;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  .branding-wrapper {
+    margin: 30px;
+  }
+  .branding {
+    width: 300px;
+    height: 300px;
+    background-size: 250px auto;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    &.dark-logo {
+      background-color: #FFF;
+    }
+    &.light-logo {
+      background-color: #000;
+    }
+  }
+
+  .swatch-wrapper {
+    margin: 30px;
+  }
+  .swatch {
+    width: 150px;
+    height: 100px;
+  }
+
+  .sizing-wrapper {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .sizing {
+    background-color: #eeeeee;
+  }
+
+  .icons-wrapper {
+    margin: 30px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    i {
+      font-size: 30px;
+    }
+  }
+}
+
+.buttons-chips {
+  display: flex;
+  flex-wrap: wrap;
+
+  .buttons-wrapper {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+.checkbox-chips {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+// overly generic :(
+@media @tablet {
+  .nav {
+    padding-top: 0;
+    ol {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      height: 90px;
+    }
+  }
+}
+
+.wrapper {
+  display: flex;
+}

@@ -1,0 +1,21 @@
+{{ define "main"}}
+  <h1>{{ .Title }}</h1>
+
+  {{ with .Params.description }}
+  <p>
+    {{ . }}
+  </p>
+  {{ end }}
+
+  <div class="content">
+    <article>
+      {{ .Content }}
+    </article>
+
+    {{ if .Params.aside }}
+      <aside class="canister dark">
+        {{ trim .Params.aside " \n" | markdownify }}
+      </aside>
+    {{ end }}
+  </div>
+{{ end }}

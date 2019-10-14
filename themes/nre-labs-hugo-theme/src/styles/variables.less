@@ -1,0 +1,96 @@
+// todo: extract all colors into variables
+
+// colors
+@color-blush: #c35b56;
+@color-medium-gray: #666666;
+@color-light-gray: #f7f7f7;
+
+// colors aliases
+@brand-primary: #56bec3;
+@brand-secondary: @color-blush;
+@brand-support: #95d5d8;
+@brand-dark: #262c2c;
+@brand-light: @color-light-gray;
+@brand-medium: @color-medium-gray;
+@alert-info: #0096c3;
+@alert-warning: #f4cc54;
+@alert-error: #ff0000;
+@alert-success: #22b14c;
+
+// dimensions
+@base-size: 30px;
+@xl-size: @base-size * 2;
+@lg-size: @base-size * 1.5;
+@md-size: @base-size * (2 / 3);
+@sm-size: @base-size / 3;
+@xs-size: @base-size / 6;
+
+// breakpoints & media queries
+@phone-max-width: 699px;
+@tablet-max-width: 1024px;
+@widescreen-min-width: 1460px;
+
+@phone: ~"(max-width: @{phone-max-width})";
+@tablet: ~"(max-width: @{tablet-max-width})";
+@desktop: ~"(min-width: @{tablet-max-width})"; // might not need this
+@widescreen: ~"(min-width: @{widescreen-min-width})";
+
+
+// basic classes to apply variables
+.brand-primary {
+  background-color: @brand-primary;
+}
+.brand-secondary {
+  background-color: @brand-secondary;
+}
+.brand-support {
+  background-color: @brand-support;
+}
+.brand-support {
+  background-color: @brand-support;
+}
+.brand-dark {
+  background-color: @brand-dark;
+}
+.brand-light {
+  background-color: @brand-light;
+}
+.brand-medium {
+  background-color: @brand-medium;
+}
+.alert-info {
+  background-color: @alert-info;
+}
+.alert-warning {
+  background-color: @alert-warning;
+}
+.alert-error {
+  background-color: @alert-error;
+}
+.alert-success {
+  background-color: @alert-success;
+}
+.xl-size {
+  width: @xl-size;
+  height: @xl-size;
+}
+.lg-size {
+  width: @lg-size;
+  height: @lg-size;
+}
+.base-size {
+  width: @base-size;
+  height: @base-size;
+}
+.md-size {
+  width: @md-size;
+  height: @md-size;
+}
+.sm-size {
+  width: @sm-size;
+  height: @sm-size;
+}
+.xs-size {
+  width: @xs-size;
+  height: @xs-size;
+}
