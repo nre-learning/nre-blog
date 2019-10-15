@@ -8,9 +8,9 @@ description: "Whether you’re just interested in learning more about network re
 ### NRE Resources
 
 {{< link-list >}}
-- [Intro to Network Reliability Engineering]({{< ref introduction >}})
+- [Intro to Network Reliability Engineering]({{< relref introduction >}})
 - [Community interviews](https://www.youtube.com/watch?v=l_TUYSkZcv4&list=PLjM9FuOtKYVhXixs9rEjf7brmPDSWPe8R)
-- [Blog]({{< ref post >}})
+- [Blog]({{< relref post >}})
 - [Twitter](https://twitter.com/NRELabs)
 {{< /link-list >}}
 {{< /canister >}}
