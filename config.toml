@@ -62,7 +62,7 @@ page = ["HTML"]
     identifier = "about"
     url = "/about/"
     name = "About"
-    weight = 1
+    weight = 5
 
 [[menu.main]]
     identifier = "community"
@@ -74,13 +74,13 @@ page = ["HTML"]
     identifier = "resources"
     url = "/resources/"
     name = "Resources"
-    weight = 20
+    weight = 15
 
 [[menu.main]]
     identifier = "post"
     url = "/post/"
     name = "Blogs"
-    weight = 30
+    weight = 20
 
 [outputFormats]
 [outputFormats.HTML]
