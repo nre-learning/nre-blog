@@ -1,8 +1,7 @@
 {{ define "main"}}
 <h1>{{ .Title }}</h1>
 
-<img src="{{ .Params.featured_image }}" class="header" />
-
+{{ if .Params.author }}
 <aside class="attribution small">
   by
   <a href="{{ .Params.author.link }}" target="_blank">
@@ -19,14 +18,15 @@
   <span class="f6 mv4 dib tracked"> - {{ .WordCount}} words</span>
   {{ end }}
 </aside>
+{{ end}}
 
-<div class="content post">
+<div class="content">
   <article>
     {{ .Content }}
   </article>
 
   {{ if .Params.aside }}
-  <aside class="canister dark">
+  <aside class="canister medium-gray">
     {{ trim .Params.aside " \n" | markdownify }}
   </aside>
   {{ end }}

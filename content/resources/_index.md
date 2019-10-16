@@ -4,7 +4,7 @@ description: "Whether you’re just interested in learning more about network re
 ---
 
 {{< three-col >}}
-{{< canister color="dark" >}}
+{{< canister color="medium-gray" >}}
 ### NRE Resources
 
 {{< link-list >}}
@@ -15,7 +15,7 @@ description: "Whether you’re just interested in learning more about network re
 {{< /link-list >}}
 {{< /canister >}}
 
-{{< canister color="dark" >}}
+{{< canister color="medium-gray" >}}
 ### User Support
 
 {{< link-list >}}
@@ -24,7 +24,7 @@ description: "Whether you’re just interested in learning more about network re
 {{< /link-list >}}
 {{< /canister >}}
 
-{{< canister color="dark" >}}
+{{< canister color="medium-gray" >}}
 ### Developer Support
 
 {{< link-list >}}

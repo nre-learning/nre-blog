@@ -49,7 +49,7 @@
 <body>
 {{ block "header" . }}{{ partial "header.html" .}}{{ end }}
 
-<section class="main {{ .Section }} {{if .IsPage }}page{{else}}index{{ end }}">
+<section class="main {{ .Type }} {{if .IsPage }}page{{else}}index{{ end }}">
   {{ block "main" . }}{{ end }}
 </section>
 

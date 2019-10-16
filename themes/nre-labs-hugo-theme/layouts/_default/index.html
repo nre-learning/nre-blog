@@ -10,10 +10,10 @@
       <div class="right">
         <img src="{{ .Params.heroImageURL }}" />
       </div>
-    {{ else if .Params.heroVideoURL }}
+    {{ else if .Params.heroVideoId }}
       <div class="right">
         <iframe class="video-embed"
-                src="{{ .Params.heroVideoURL }}"
+                src="https://www.youtube.com/embed/{{ .Params.heroVideoId }}"
                 frameborder="0"
                 allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen>

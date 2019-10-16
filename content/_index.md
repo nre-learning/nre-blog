@@ -2,7 +2,7 @@
 ---
 title: "Automation. Unshackled."
 description: "Learn automation by doing it. Right now, right here, in your browser."
-heroVideoURL: "https://www.youtube.com/embed/YhbWBX71yGQ"
+heroVideoId: "YhbWBX71yGQ"
 menu: 
     main:
         name: "Home"

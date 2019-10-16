@@ -8,7 +8,7 @@ menu:
 Welcome to the NRE Labs community. As a collaborative group of developers and users, we focus on simplifying the journey to network reliability engineering for working NetOps engineers. Developers and users alike can get involved and contribute in a variety of ways, from ideas to code to community support.
 
 {{< three-col >}}
-{{< canister color="dark" >}}
+{{< canister color="medium-gray" >}}
 ### Connect
 
 {{<link-list>}}
@@ -18,7 +18,7 @@ Welcome to the NRE Labs community. As a collaborative group of developers and us
 {{< /link-list >}}
 {{< /canister >}}
     
-{{< canister color="dark" >}}
+{{< canister color="medium-gray" >}}
 ### Contribute
 
 {{<link-list>}}
@@ -35,7 +35,7 @@ Welcome to the NRE Labs community. As a collaborative group of developers and us
 {{< /link-list >}}
 {{% /canister %}}
     
-{{< canister color="dark" >}}
+{{< canister color="medium-gray" >}}
 ### Policies
     
 {{<link-list>}}

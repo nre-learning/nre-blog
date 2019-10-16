@@ -66,16 +66,11 @@ body {
 
 section.main {
   flex-grow: 1;
+  align-self: center;
   margin-top: @base-size;
   margin-right: @base-size;
   margin-left: @base-size;
   max-width: 1400px;
-
-  @media @widescreen {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-  }
 
   > .content {
     display: grid;
@@ -133,6 +128,10 @@ section.main {
 
   &.dark {
     border-top: 10px solid @brand-dark;
+  }
+
+  &.medium-gray {
+    border-top: 10px solid @color-medium-gray;
   }
 }
 

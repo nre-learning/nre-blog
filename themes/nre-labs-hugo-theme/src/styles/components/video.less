@@ -1,0 +1,18 @@
+// embedded video intended for post pages
+// keeps aspect ratio when being resized via padding hack
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  height: 0; // no height, only padding to provide illusion of height
+  padding-top: 56.25%; // 16 / 9 aspect
+  margin-top: @base-size;
+
+  .video-embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+}
