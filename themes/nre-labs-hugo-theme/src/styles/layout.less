@@ -64,52 +64,13 @@ body {
   }
 }
 
-section.main {
+.main {
   flex-grow: 1;
   align-self: center;
   margin-top: @base-size;
   margin-right: @base-size;
   margin-left: @base-size;
   max-width: 1400px;
-
-  > .content {
-    display: grid;
-    grid-template-columns: 1fr fit-content(30%);
-    grid-template-rows: max-content;
-    grid-template-areas:
-      "article aside"
-      "advisor aside";
-    row-gap: @md-size;
-
-    @media @tablet {
-      grid-template-areas:
-        "article"
-        "aside"
-        "advisor";
-    }
-
-    > article {
-      grid-area: article;
-    }
-
-    > aside {
-      grid-area: aside;
-      align-self: start;
-      // need to use margin instead of column-gap since we need this gap
-      // to disappear when aside tag is absent.
-      margin-left: @base-size;
-      padding-bottom: 27px;
-
-      @media @tablet {
-        margin-left: 0;
-      }
-    }
-
-    > .advisor {
-      grid-area: advisor;
-      align-self: start;
-    }
-  }
 }
 
 .canister {

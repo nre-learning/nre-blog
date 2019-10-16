@@ -49,9 +49,9 @@
 <body>
 {{ block "header" . }}{{ partial "header.html" .}}{{ end }}
 
-<section class="main {{ .Type }} {{if .IsPage }}page{{else}}index{{ end }}">
+<div class="main {{ .Type }} {{if .IsPage }}page{{else}}index{{ end }}">
   {{ block "main" . }}{{ end }}
-</section>
+</div>
 
 {{ block "footer" . }}{{ partial "footer.html" . }}{{ end }}
 

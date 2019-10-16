@@ -1,21 +1,7 @@
 ---
 title: "About"
-menu: 
-    main:
-        weight: 5
-aside: "
-### Getting Started
-
-To get started, learners can simply go to [https://labs.networkreliability.engineering/](https://labs.networkreliability.engineering/), select a lesson, and dive in. 
-
-
-The NRE Labs community also provides information about the project as well as NRE-related topics on bi-weekly video streams and on Twitter. 
-
-
-For help with any aspect of the project, users and contributors are encouraged to review the forums and join the NRE Labs Discord chat server at [https://discord.gg/fRuSUyD](https://discord.gg/fRuSUyD]).
-"
 ---
-
+{{< article >}}
 ### Why NRE Labs?
 
 While the networking industry has dreamed of automation for years, little has been accomplished to date. Network engineers often lack comfort with automation tools and techniques developed by other parts of the infrastructure sphere. In addition, many automation courses assume learners already know Python or other scripting languages, or they expect students to download and deploy a variety of tools before they can even start learning. Finally, many tools and courses are not tailored to the needs or interests of network engineers.
@@ -35,5 +21,16 @@ This approach, coupled with the browser-based UI, also streamlines learning for 
 The open source, community-centric nature of the project provides a natural setting for working network engineers to collaborate with peers on NetOps challenges, to exchange sample scripts, and to teach others what they’ve learned by contributing lessons based on their experiences. Anyone can join the developer community and contribute their ideas and code.
 
 NRE Labs is currently supported by Juniper Networks and plans to transition its operations to an independent open source foundation or conservancy in the near future. If your organization is interested in helping support the project, please email [nrelabs.info@gmail.com](mailto:nrelabs.info@gmail.com)
+{{< /article >}}
+
+{{< aside >}}
+### Getting Started
+
+To get started, learners can simply go to [https://labs.networkreliability.engineering/](https://labs.networkreliability.engineering/), select a lesson, and dive in.
+
+The NRE Labs community also provides information about the project as well as NRE-related topics on bi-weekly video streams and on Twitter.
+
+For help with any aspect of the project, users and contributors are encouraged to review the forums and join the NRE Labs Discord chat server at [https://discord.gg/fRuSUyD](https://discord.gg/fRuSUyD]).
+{{< /aside >}}
 
 {{< advisor >}}

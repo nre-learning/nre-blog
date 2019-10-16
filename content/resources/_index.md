@@ -1,7 +1,8 @@
 ---
 title: "Resources"
-description: "Whether you’re just interested in learning more about network reliability engineering or thinking about getting more engaged with the NRE Labs community, we have a range of resources for you to check out. "
+showPageList: false
 ---
+Whether you’re just interested in learning more about network reliability engineering or thinking about getting more engaged with the NRE Labs community, we have a range of resources for you to check out.
 
 {{< three-col >}}
 {{< canister color="medium-gray" >}}

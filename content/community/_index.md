@@ -1,8 +1,5 @@
 ---
 title: "Community"
-menu: 
-    main:
-        weight: 10
 ---
 
 Welcome to the NRE Labs community. As a collaborative group of developers and users, we focus on simplifying the journey to network reliability engineering for working NetOps engineers. Developers and users alike can get involved and contribute in a variety of ways, from ideas to code to community support.
@@ -44,7 +41,6 @@ Welcome to the NRE Labs community. As a collaborative group of developers and us
 {{< /link-list >}}
 {{< /canister >}}
 {{< /three-col >}}
-
 
 <h3 class="inline-block">Latest Videos</h3>
 <a href="https://www.youtube.com/channel/UCbfZq3sDGx6gmv7KRrhRh4g"

@@ -1,21 +1,24 @@
-{{ define "main"}}
+{{ define "main" }}
 <h1>{{ .Title }}</h1>
 
-{{ with .Params.description }}
-<p>
-  {{ . }}
-</p>
+<div class="content">
+  {{ .Content }}
+</div>
+
+{{ if .Params.showPageList | default "true"}}
+  <div class="post-list">
+    {{ range .Paginator.Pages }}
+    <article>
+      <img src="{{ .Params.featured_image }}" />
+      <a href="{{ .URL }}"><h3>{{ .Title }}</h3></a>
+      <p>
+        {{ .Summary }}
+      </p>
+    </article>
+    {{ end }}
+  </div>
+
+  {{ partial "pagination" . }}
 {{ end }}
 
-<div class="content">
-  <article>
-    {{ .Content }}
-  </article>
-
-  {{ if .Params.aside }}
-  <aside class="canister medium-gray">
-    {{ trim .Params.aside " \n" | markdownify }}
-  </aside>
-  {{ end }}
-</div>
 {{ end }}

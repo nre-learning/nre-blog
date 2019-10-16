@@ -56,6 +56,11 @@ p {
   h1 + &, h2 + &, h3 + &, &:first-child {
     margin-top: @sm-size;
   }
+
+  // sometimes markdown parser ends up introducing empty paragraphs
+  &:empty {
+    display: none;
+  }
 }
 
 html {

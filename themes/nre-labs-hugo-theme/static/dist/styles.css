@@ -153,6 +153,9 @@ h3 + p,
 p:first-child {
   margin-top: 10px;
 }
+p:empty {
+  display: none;
+}
 html {
   font-size: 16px;
   color: #000000;
@@ -883,43 +886,13 @@ body > footer .nav-list.social {
     margin-bottom: 0;
   }
 }
-section.main {
+.main {
   flex-grow: 1;
   align-self: center;
   margin-top: 30px;
   margin-right: 30px;
   margin-left: 30px;
   max-width: 1400px;
-}
-section.main > .content {
-  display: grid;
-  grid-template-columns: 1fr fit-content(30%);
-  grid-template-rows: max-content;
-  grid-template-areas: "article aside" "advisor aside";
-  row-gap: 20px;
-}
-@media (max-width: 1024px) {
-  section.main > .content {
-    grid-template-areas: "article" "aside" "advisor";
-  }
-}
-section.main > .content > article {
-  grid-area: article;
-}
-section.main > .content > aside {
-  grid-area: aside;
-  align-self: start;
-  margin-left: 30px;
-  padding-bottom: 27px;
-}
-@media (max-width: 1024px) {
-  section.main > .content > aside {
-    margin-left: 0;
-  }
-}
-section.main > .content > .advisor {
-  grid-area: advisor;
-  align-self: start;
 }
 .canister {
   border: 1px solid #979797;
@@ -1465,28 +1438,62 @@ section.main > .content > .advisor {
   height: 100%;
   width: 100%;
 }
-section.post.page {
+.post.page {
   max-width: 800px;
 }
-section.post.page > h1:first-child {
+.post.page > h1:first-child {
   text-align: center;
 }
-section.post.page img.header {
+.post.page img.header {
   width: 100%;
   height: 285px;
   object-fit: cover;
   object-position: center;
   margin-top: 30px;
 }
-section.post.page .attribution {
+.post.page .attribution {
   text-align: center;
   margin: 30px 0;
 }
-section.post.page article img {
+.post.page article img {
   margin-top: 30px;
 }
-section.post.page li {
+.post.page li {
   margin-top: 20px;
+}
+.about.index > .content {
+  display: grid;
+  grid-template-columns: 1fr fit-content(30%);
+  grid-template-rows: max-content;
+  row-gap: 30px;
+}
+.about.index > .content > article {
+  grid-column: 1;
+  grid-row: 1;
+}
+.about.index > .content > aside {
+  grid-column: 2;
+  grid-row: 0.5;
+  align-self: start;
+  margin-left: 30px;
+  margin-top: 0;
+}
+@media (max-width: 1024px) {
+  .about.index > .content > aside {
+    margin-left: 0;
+    grid-column: 1;
+    grid-row: 2;
+  }
+}
+.about.index > .content > .advisor {
+  grid-column: 1;
+  align-self: start;
+  margin-top: 0;
+}
+@media (max-width: 1024px) {
+  .about.index > .content > .advisor {
+    grid-row: 3;
+  }
 }
 /* pagination.html: https://github.com/spf13/hugo/blob/master/tpl/tplimpl/template_embedded.go#L117 */
 .pagination {
