@@ -925,7 +925,7 @@ section.main > .content > .advisor {
   border: 1px solid #979797;
   border-radius: 0 0 4px 4px;
   margin-top: 30px;
-  padding: 5px 20px;
+  padding: 5px 20px 10px 20px;
 }
 .canister.primary {
   border-top: 10px solid #56bec3;
@@ -1166,7 +1166,7 @@ section.main > .content > .advisor {
 }
 .advisor {
   display: grid;
-  grid-template-columns: 1fr min-content;
+  grid-template-columns: 1fr minmax(195px, 300px);
   grid-template-rows: auto;
   grid-template-areas: "header header" "input button" "aside .";
   gap: 10px 10px;
@@ -1183,14 +1183,17 @@ section.main > .content > .advisor {
 }
 .advisor .input-wrapper {
   grid-area: input;
+  min-width: 325px;
 }
 .advisor .input-wrapper input {
   margin: 0;
 }
 .advisor .btn {
   grid-area: button;
+  display: flex;
+  justify-content: center;
   height: 48px;
-  min-width: 300px;
+  padding: 5px;
   margin: 0;
 }
 .advisor aside {
