@@ -67,10 +67,11 @@ body {
 .main {
   flex-grow: 1;
   align-self: center;
+  width: 100%;
   margin-top: @base-size;
-  margin-right: @base-size;
-  margin-left: @base-size;
-  max-width: 1400px;
+  padding-right: @base-size;
+  padding-left: @base-size;
+  max-width: @widescreen-min-width;
 }
 
 .canister {
