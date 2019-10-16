@@ -1,10 +1,10 @@
-{{ $type := .Get 1 | default "wrapped" }}
-{{ $unwrapped := eq $type "unwrapped" }}
-{{ if not $unwrapped}}<div class="video-wrapper">{{end}}
+{{ $type := .Get 1 | default "constrain-aspect-ratio" }}
+{{ $unconstrained := eq $type "unconstrained" }}
+{{ if not $unconstrained}}<div class="video-wrapper">{{end}}
 <iframe class="video-embed"
         src="https://www.youtube.com/embed/{{ .Get 0}}"
         frameborder="0"
         allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen>
 </iframe>
-{{ if not $unwrapped}}</div>{{end}}
+{{ if not $unconstrained}}</div>{{end}}
