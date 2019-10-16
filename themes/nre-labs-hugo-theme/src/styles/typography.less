@@ -42,16 +42,24 @@ h3 {
   font-weight: 500;
 }
 
-p {
+.base-font-style {
   font-size: @md-fontsize;
   color: #000000;
   line-height: 32px;
+}
+
+p {
+  .base-font-style;
   margin-top: @base-size;
 
   // reduce margin in places where p tag follows a header
   h1 + &, h2 + &, h3 + &, &:first-child {
     margin-top: @sm-size;
   }
+}
+
+html {
+  .base-font-style;
 }
 
 a {

@@ -98,6 +98,10 @@ label {
   color: #999999;
   line-height: 21px;
 }
+ul,
+ol {
+  list-style-position: inside;
+}
 h1,
 h2,
 h3 {
@@ -132,6 +136,11 @@ h3 {
   line-height: 31px;
   font-weight: 500;
 }
+.base-font-style {
+  font-size: 16px;
+  color: #000000;
+  line-height: 32px;
+}
 p {
   font-size: 16px;
   color: #000000;
@@ -143,6 +152,11 @@ h2 + p,
 h3 + p,
 p:first-child {
   margin-top: 10px;
+}
+html {
+  font-size: 16px;
+  color: #000000;
+  line-height: 32px;
 }
 a {
   color: #0096c3;
@@ -160,6 +174,22 @@ a {
 .link-text:hover {
   color: #f7f7f7;
   text-decoration: underline;
+}
+img.full {
+  display: block;
+  max-width: 100%;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img.float {
+  margin: 30px;
+}
+img.float.right {
+  float: right;
+}
+img.float.left {
+  float: left;
 }
 .container-table100 {
   width: 100%;
@@ -1450,7 +1480,10 @@ section.post.page .attribution {
   margin: 60px 0;
 }
 section.post.page article img {
-  margin: 30px;
+  margin-top: 30px;
+}
+section.post.page li {
+  margin-top: 20px;
 }
 /* pagination.html: https://github.com/spf13/hugo/blob/master/tpl/tplimpl/template_embedded.go#L117 */
 .pagination {
