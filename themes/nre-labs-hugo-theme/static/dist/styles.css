@@ -839,11 +839,11 @@ body > footer {
   display: flex;
   align-items: center;
   background-color: #666666;
-  padding: 3px calc(env(safe-area-inset-right) + 10px) 3px calc(env(safe-area-inset-left) + 10px);
 }
 body > header {
   height: 65px;
   flex-shrink: 0;
+  padding: 3px calc(env(safe-area-inset-left) + 10px);
 }
 @media (max-width: 1024px) {
   body > header {
@@ -864,12 +864,12 @@ body > footer {
   justify-content: space-between;
   align-items: flex-start;
   margin-top: 60px;
-  padding: 20px 30px;
+  padding: 20px calc(env(safe-area-inset-left) + 30px);
 }
 @media (max-width: 699px) {
   body > footer {
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: calc(env(safe-area-inset-left) + 20px);
+    padding-left: calc(env(safe-area-inset-left) + 20px);
   }
 }
 @media (min-width: 1460px) {
