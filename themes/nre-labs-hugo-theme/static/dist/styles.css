@@ -839,7 +839,7 @@ body > footer {
   display: flex;
   align-items: center;
   background-color: #666666;
-  padding: 3px 10px;
+  padding: 3px calc(safe-area-inset-right + 10px) 3px calc(safe-area-inset-left + 10px);
 }
 body > header {
   height: 65px;
@@ -905,14 +905,14 @@ body > footer .nav-list.social {
   align-self: center;
   width: 100%;
   margin-top: 30px;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-right: calc(safe-area-inset-right + 30px);
+  padding-left: calc(safe-area-inset-left+ 30px);
   max-width: 1460px;
 }
 @media (max-width: 699px) {
   .main {
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: calc(safe-area-inset-right + 10px);
+    padding-left: calc(safe-area-inset-left + 10px);
   }
 }
 .canister {
