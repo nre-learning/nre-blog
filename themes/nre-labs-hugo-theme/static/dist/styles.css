@@ -1369,8 +1369,7 @@ body > footer .nav-list.social {
   font-weight: 500;
   text-decoration: none;
 }
-.link-list a:hover,
-.link-list .arrow:hover {
+.link-list a:hover {
   text-decoration: underline;
 }
 .link-list .arrow {
