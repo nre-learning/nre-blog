@@ -9,31 +9,26 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    cursor: pointer;
     color: @color-medium-gray;
 
     &:not(:last-child) {
       // todo: replace color with var
       border-bottom: 1px solid #CCC;
     }
+
+    > *:first-child {
+      flex-grow: 1;
+      padding: @md-size 0;
+    }
   }
 
   a, .arrow {
     color: #36bec3; // todo: replace color with var
-  }
-
-  a {
-    flex-grow: 1;
-    padding: @md-size 0;
     font-weight: 500;
     text-decoration: none;
 
     &:hover {
       text-decoration: underline;
-    }
-
-    &:not(:first-child) {
-      margin-left: @sm-size;
     }
   }
 

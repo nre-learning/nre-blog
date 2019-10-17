@@ -1353,27 +1353,24 @@ body > footer .nav-list.social {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  cursor: pointer;
   color: #666666;
 }
 .link-list li:not(:last-child) {
   border-bottom: 1px solid #CCC;
 }
+.link-list li > *:first-child {
+  flex-grow: 1;
+  padding: 20px 0;
+}
 .link-list a,
 .link-list .arrow {
   color: #36bec3;
-}
-.link-list a {
-  flex-grow: 1;
-  padding: 20px 0;
   font-weight: 500;
   text-decoration: none;
 }
-.link-list a:hover {
+.link-list a:hover,
+.link-list .arrow:hover {
   text-decoration: underline;
-}
-.link-list a:not(:first-child) {
-  margin-left: 10px;
 }
 .link-list .arrow {
   display: flex;
@@ -1486,7 +1483,7 @@ body > footer .nav-list.social {
 .post.page article img {
   margin-top: 30px;
 }
-.post.page li {
+.post.page .content > ul > li {
   margin-top: 20px;
 }
 .about.index > .content {

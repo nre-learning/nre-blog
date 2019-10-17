@@ -12,9 +12,9 @@ To continue building your understanding of network reliability engineering theor
 
 {{< canister color="medium-gray" >}}
 {{< link-list >}}
-- <span>Blog:</span> [Network Reliability Engineering: What's in a Name?](https://forums.juniper.net/t5/Enterprise-Cloud-and/Network-Reliability-Engineering-What-s-In-a-Name/ba-p/329764)
+- <span>Blog: [Network Reliability Engineering: What's in a Name?](https://forums.juniper.net/t5/Enterprise-Cloud-and/Network-Reliability-Engineering-What-s-In-a-Name/ba-p/329764)</span>
 - [Community blogs]({{< relref post >}})
-- <span>Video:</span> [Network Reliability Engineering: Automation's North Star](https://www.youtube.com/watch?v=EFTrxDIBKC4)
+- <span>Video: [Network Reliability Engineering: Automation's North Star](https://www.youtube.com/watch?v=EFTrxDIBKC4)</span>
 - [Community interviews](https://www.youtube.com/watch?v=l_TUYSkZcv4&list=PLjM9FuOtKYVhXixs9rEjf7brmPDSWPe8R)
 {{< /link-list >}}
 {{< /canister >}}
