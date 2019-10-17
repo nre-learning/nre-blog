@@ -869,8 +869,8 @@ body > footer {
 }
 @media (max-width: 699px) {
   body > footer {
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
   }
 }
 @media (min-width: 1460px) {
