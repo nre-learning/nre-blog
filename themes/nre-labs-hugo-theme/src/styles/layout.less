@@ -9,16 +9,12 @@ body {
     display: flex;
     align-items: center;
     background-color: @brand-medium;
-    padding:
-            3px
-            ~"calc(env(safe-area-inset-right) + @{sm-size})"
-            3px
-            ~"calc(env(safe-area-inset-left) + @{sm-size})";
   }
 
   & > header {
     height: 65px;
     flex-shrink: 0;
+    padding: 3px ~"calc(env(safe-area-inset-left) + @{sm-size})";
 
     @media @tablet {
       justify-content: space-between;
@@ -39,11 +35,11 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     margin-top: @xl-size;
-    padding: @md-size @base-size;
+    padding: @md-size ~"calc(env(safe-area-inset-left) + @{base-size})";
 
     @media @phone {
-      padding-right: @md-size;
-      padding-left: @md-size;
+      padding-right: ~"calc(env(safe-area-inset-left) + @{md-size})";
+      padding-left: ~"calc(env(safe-area-inset-left) + @{md-size})";
     }
 
     @media @widescreen {
