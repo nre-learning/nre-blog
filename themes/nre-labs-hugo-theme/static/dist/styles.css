@@ -65,7 +65,7 @@ body {
   height: 100%;
   overflow-x: hidden;
   position: relative;
-  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 aside.small {
   font-size: 14px;
