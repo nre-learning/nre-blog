@@ -4,6 +4,8 @@ body {
   flex-direction: column;
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
+  // set color of region shown during MacOS / iOS rubber band scrolling
+  background-color: @color-medium-gray;
 
   & > header, & > footer {
     display: flex;
@@ -74,6 +76,7 @@ body {
   padding-right: @base-size;
   padding-left: @base-size;
   max-width: @widescreen-min-width;
+  background-color: white;
 }
 
 .canister {
