@@ -3,7 +3,7 @@ date: 2019-10-17T00:00:00-00:00
 description: ""
 featured_image: "https://networkreliability.engineering/images/2019/10/metal-grid.jpg"
 tags: []
-title: "NRE Labs - The Move to Bare-Metal"
+title: "Going Bare-Metal with NRE Labs"
 show_reading_time: true
 authors:
 - name: Matt Oswalt
@@ -12,15 +12,17 @@ authors:
 
 [Last month](https://networkreliability.engineering/2019/08/big-update---new-platform-new-curriculum-new-infrastructure/) I teased the three major updates we had released at that time. One of those updates was the new Antidote v0.4.0 platform, which was covered in [the following blog post](https://networkreliability.engineering/2019/09/antidote-platform-v0.4.0-overview/). In this post, I'd like to discuss another of those three updates, which was the migration of the NRE Labs production environment to a new infrastructure host.
 
+> *Note that this blog post discusses the flagship deployment of the NRE Labs project, hosted at [https://labs.networkreliability.engineering](https://labs.networkreliability.engineering). This is meant to provide insight into how we run the site, and the infrastructure decisions we make to power the site. This isn't the only way to run the NRE Labs curriculum, and it's certainly not the only way to use Antidote - this is just an informative blog to show what we're doing for our use case.*
+
 # NRE Labs Resource Considerations
 
-A brief aside on NRE Labs' computing requirements. We see on average, ~100 lessons launched a day, but very rarely are there more than a handful of concurrent lessons. That said, every once in a while we do see spikes in usage, and considering many of our lessons currently involve several copies of virtual network devices, it doesn't take long to start using a large amount of RAM.
+A brief aside on NRE Labs' computing requirements. We see on average, ~100 lessons launched a day. There are rarely more than a handful of concurrent lessons - they're generally well spread out. That said, every once in a while we do see spikes in usage, and considering many of our lessons currently involve several copies of virtual network devices, it doesn't take long to start using a large amount of RAM.
 
 On the other hand, the underlying Antidote platform is fairly aggressive at cleaning up resources for inactive lessons, so in general, resource utilization tends to get smoothed out pretty evenly. This means that while we need a decent amount of RAM to support the "dips" that show up with a spurt of activity, there is a certain point where adding more RAM is mostly pointless.
 
 <div style="text-align:center;"><a href="/images/2019/10/cluster-cpu-memory.png"><img src="/images/2019/10/cluster-cpu-memory.png" style="width: 700px;display: block;margin: 0 auto;" ></a></div>
 
-However, the one resource we can never get enough of is **speed**. Ever since the project began, NRE Labs has been all about making decisions to keep the user experience interactive, and fast. We don't want to sacrifice speed to maintain interactivity - we demand both. We want to provide the learner with a fully on-demand environment that they have full access to, and we want to give it to them as quickly as humanly possible. If someone heard in a meeting that they need to learn how to write a Python script to query a network device API, we want them to be able to do it by the end of that meeting.
+However, the one thing we can never get enough of is **speed**. Ever since the project began, NRE Labs has been all about making decisions to keep the user experience interactive, and fast. We don't want to sacrifice speed to maintain interactivity - we demand both. We want to provide the learner with a fully on-demand environment that they have full access to, and we want to give it to them as quickly as humanly possible. If someone heard in a meeting that they need to learn how to write a Python script to query a network device API, we want them to be able to do it by the end of that meeting.
 
 # History of NRE Labs
 
@@ -60,11 +62,11 @@ The biggest difference between Packet and the "big" clouds like AWS or GCP is th
 
 <div style="text-align:center;"><a href="/images/2019/10/packetui.png"><img src="/images/2019/10/packetui.png" style="width: 700px;display: block;margin: 0 auto;" ></a></div>
 
-I personally think this simplicity is a net positive, but it does mean that by moving to Packet, **especially** if you're accustomed to the one-stop-shop that is GCP, Azure, or AWS, there are some things you'll need to either implement yourself or find a third-party to provide.
+I personally think this simplicity is a net positive, but it does mean that when moving to such a provider, **especially** if you're accustomed to the one-stop-shop that is GCP, Azure, or AWS, there are some things you'll need to either implement yourself or find a third-party to provide.
 
-As a point of emphasis, Antidote actually doesn't need that much external "stuff". Most of what Antidote needs is provided by Kubernetes - we really just need to get traffic to the cluster, and Kubernetes takes care of the rest. On top of that, we're only running a single application - NRE Labs - on our cluster (in contrast to what most folks tend to do in the cloud). And even with all of these things going in our favor, we still had to account three things that Packet doesn't offer, that we had previously had as part of being in GCP.
+As a point of emphasis, Antidote actually doesn't need that much external "stuff". Most of what Antidote needs is provided by Kubernetes - we really just need to get traffic to the cluster, and Kubernetes takes care of the rest. On top of that, we're only running a single application - NRE Labs - on our cluster (in contrast to what most folks tend to do in the cloud). And even with all of these things going in our favor, we still had to account for three things that Packet doesn't offer, that we had previously had as part of being in GCP.
 
-This exercise made NRE Labs a lot more portable. We don't have plans to move from Packet any time soon, but in the event that we do decide to move in the future, having these components be implemented outside of the GCP umbrella means we only need to rip off that band-aid once.
+This exercise made our deployment of NRE Labs a lot more portable. We don't have plans to move from Packet any time soon, but in the event that we do decide to move in the future, having these components be implemented outside of the GCP umbrella means we only need to rip off that band-aid once.
 
 ## 1: Load Balancing to Cluster Nodes
 
@@ -126,11 +128,11 @@ We quickly noticed we had three classes of lesson startup times:
 
 In addition to these, the more complicated the lesson, the more diverse the "startup jitter". Not only did they take longer to start, but their startup times were also even less predictable. Sometimes they would start in five minutes, but other times they would simply never start - often extending past Syringe's default 30-minute garbage collection interval. As you may imagine, this is horrible user experience.
 
-We switched the DNS records for NRE Labs over to our Packet cluster on August 10th, and we began to see not only a fairly dramatic reduction in startup times for lessons across the board (essentially cut in half) but the unpredictability we were seeing on our GCE cluster was almost nonexistent.
+We switched the DNS records for NRE Labs over to our Packet cluster on August 10th, and we began to see not only a fairly dramatic reduction in startup times for lessons across the board (essentially cut in half) but the unpredictability we were seeing previously was almost nonexistent.
 
 <div style="text-align:center;"><a href="/images/2019/10/afterpacketzoomout.png"><img src="/images/2019/10/afterpacketzoomout.png" style="width: 700px;display: block;margin: 0 auto;" ></a></div>
 
-***So, the moral of the story is that we're able to start any lesson for our users, including complex lessons with fully on-demand read/write network devices, in a minute or less, on average.***
+The very exciting bottom line: ***we're able to start any lesson for our users, including complex lessons with fully on-demand read/write network devices, in under a minute, on average.*** This is not only a testament to the bare-metal performance shown here, but also the intentional design decisions around speed that we made when creating the Antidote platform.
 
 # Cost?
 
@@ -140,7 +142,7 @@ There's always the question of cost when moving between providers, and this has 
 
 Bottom line, the project is now spending generally less on compute resources for our Kubernetes cluster on Packet, but it's not just a simple "this is cheaper than that" - there were a few factors that went into this, that should be taken to heart if you're considering engaging with any compute provider of any kind:
 
-- On-demand is EXPENSIVE no matter who you're working with. Go in with a gameplan to move from on-demand to at least a reserved model, if you intend to stay long-term. Some providers (including Packet) also have spot-pricing which is even cheaper, if your applications can live with this volatile model.
+- On-demand is EXPENSIVE no matter who you're working with. Even if you're just tinkering, go in with a gameplan to move from on-demand to at least a reserved model, if you intend to stay long-term. Some providers (including Packet) also have spot-pricing which is even cheaper, if your applications can live with this volatile model.
 - The efficiency of well-sized compute resources cannot be understated. Spend the time to understand your application's computing needs, and seek out the provider and the computing package that best fits this with as little overhead as possible. These providers allow you to create additional capacity very quickly, so try to avoid a bunch of unused computing resources for the "just in case" scenarios.
 
 Together, these factors allowed us to get a much more cost-effective model in place for running the NRE Labs project.
