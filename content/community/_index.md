@@ -23,7 +23,7 @@ Welcome to the NRE Labs community. As a collaborative group of developers and us
 - [Getting started](#)
   {{< link-list nested="true" >}}
   - [For Antidote contributors](https://antidoteproject.readthedocs.io/en/latest/hacking/platform.html)
-  - [For curriculum developers](https://antidoteproject.readthedocs.io/en/latest/hacking/curriculum/index.html)   
+  - [For curriculum developers]({{< relref "resources/contributing-lessons" >}})   
   - [For documentation contributors](https://antidoteproject.readthedocs.io/en/latest/contribute/docs.html#contrib-docs)   
   - [For non-developers](https://antidoteproject.readthedocs.io/en/latest/contribute/nondev.html)   
   {{< /link-list >}}

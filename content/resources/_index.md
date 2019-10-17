@@ -33,7 +33,7 @@ Whether you’re just interested in learning more about network reliability engi
 - [Getting started](#)
   {{< link-list nested="true" >}}
   - [For Antidote contributors](https://antidoteproject.readthedocs.io/en/latest/hacking/platform.html)
-  - [For curriculum developers](https://antidoteproject.readthedocs.io/en/latest/hacking/curriculum/index.html)   
+  - [For curriculum developers]({{< relref "resources/contributing-lessons" >}})   
   {{< /link-list >}}
 - [GitHub](https://github.com/nre-learning)
 - [Forums](https://community.networkreliability.engineering/)
