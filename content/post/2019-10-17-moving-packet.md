@@ -1,7 +1,6 @@
 ---
 date: 2019-10-17T00:00:00-00:00
 description: ""
-# featured_image: "/images/2019/10/metal-grid.jpg"
 featured_image: "https://networkreliability.engineering/images/2019/10/metal-grid.jpg"
 tags: []
 title: "NRE Labs - The Move to Bare-Metal"
@@ -10,7 +9,6 @@ authors:
 - name: Matt Oswalt
   link: https://twitter.com/mierdin
 ---
-
 
 [Last month](https://networkreliability.engineering/2019/08/big-update---new-platform-new-curriculum-new-infrastructure/) I teased the three major updates we had released at that time. One of those updates was the new Antidote v0.4.0 platform, which was covered in [the following blog post](https://networkreliability.engineering/2019/09/antidote-platform-v0.4.0-overview/). In this post, I'd like to discuss another of those three updates, which was the migration of the NRE Labs production environment to a new infrastructure host.
 
