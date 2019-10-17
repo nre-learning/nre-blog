@@ -834,7 +834,6 @@ body {
   flex-direction: column;
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
-  background-color: #666666;
 }
 body > header,
 body > footer {
@@ -899,7 +898,6 @@ body > footer .nav-list.social {
   padding-right: 30px;
   padding-left: 30px;
   max-width: 1460px;
-  background-color: white;
 }
 .canister {
   border: 1px solid #979797;
