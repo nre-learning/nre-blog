@@ -98,7 +98,7 @@ label {
   font-size: 16px;
   font-weight: 500;
   color: #999999;
-  line-height: 21px;
+  line-height: 24px;
 }
 ul,
 ol {
@@ -135,7 +135,7 @@ h2 {
 }
 h3 {
   font-size: 21px;
-  line-height: 31px;
+  line-height: 32px;
   font-weight: 500;
 }
 .base-font-style {
@@ -366,7 +366,7 @@ tbody tr:hover {
   font-weight: 500;
   font-size: 14px;
   text-align: center;
-  line-height: 21px;
+  line-height: 24px;
   letter-spacing: 1px;
 }
 .btn:hover,
@@ -418,7 +418,6 @@ tbody tr:hover {
   border: 2px solid white;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-left: 10px;
 }
 .btn.cta:hover,
 .btn.cta.hover {
@@ -895,6 +894,11 @@ body > footer .nav-list {
 }
 body > footer .nav-list.social {
   font-weight: 300;
+}
+@media (max-width: 699px) {
+  body > footer .nav-list {
+    line-height: 42px;
+  }
 }
 .main {
   flex-grow: 1;

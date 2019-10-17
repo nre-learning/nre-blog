@@ -5,6 +5,11 @@
 @md-fontsize: 16px;
 @sm-fontsize: 14px;
 
+@xl-line-height: 54px;
+@l-line-height: 42px;
+@md-line-height: 32px;
+@sm-line-height: 24px;
+
 h1, h2, h3 {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 300;
@@ -17,7 +22,7 @@ h1, h2, h3 {
 
 h1 {
   font-size: @xxl-fontsize;
-  line-height: 54px;
+  line-height: @xl-line-height;
 
   > * { // handle subtitle wrapping
     display: inline-block;
@@ -33,19 +38,19 @@ h1 {
 
 h2 {
   font-size: @xl-fontsize;
-  line-height: 42px;
+  line-height: @l-line-height;
 }
 
 h3 {
   font-size: @l-fontsize;
-  line-height: 31px;
+  line-height: @md-line-height;
   font-weight: 500;
 }
 
 .base-font-style {
   font-size: @md-fontsize;
   color: #000000;
-  line-height: 32px;
+  line-height: @md-line-height;
 }
 
 p {
