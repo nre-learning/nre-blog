@@ -831,6 +831,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
 }
 body > header,
 body > footer {
@@ -841,6 +842,7 @@ body > footer {
 }
 body > header {
   height: 65px;
+  flex-shrink: 0;
 }
 @media (max-width: 1024px) {
   body > header {
