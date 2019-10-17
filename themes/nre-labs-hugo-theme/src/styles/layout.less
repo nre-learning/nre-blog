@@ -37,12 +37,9 @@ body {
     margin-top: @xl-size;
     padding: @md-size @base-size;
 
-    .nav-list {
-      margin-bottom: @base-size;
-
-      &.social {
-        font-weight: 300;
-      }
+    @media @phone {
+      padding-right: @md-size;
+      padding-left: @md-size;
     }
 
     @media @widescreen {
@@ -63,6 +60,14 @@ body {
         margin-bottom: 0;
       }
     }
+
+    .nav-list {
+      margin-bottom: @base-size;
+
+      &.social {
+        font-weight: 300;
+      }
+    }
   }
 }
 
@@ -74,6 +79,11 @@ body {
   padding-right: @base-size;
   padding-left: @base-size;
   max-width: @widescreen-min-width;
+
+  @media @phone {
+    padding-right: @sm-size;
+    padding-left: @sm-size;
+  }
 }
 
 .canister {

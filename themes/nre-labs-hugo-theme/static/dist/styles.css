@@ -867,11 +867,11 @@ body > footer {
   margin-top: 60px;
   padding: 20px 30px;
 }
-body > footer .nav-list {
-  margin-bottom: 30px;
-}
-body > footer .nav-list.social {
-  font-weight: 300;
+@media (max-width: 699px) {
+  body > footer {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
 }
 @media (min-width: 1460px) {
   body > footer {
@@ -890,6 +890,12 @@ body > footer .nav-list.social {
     margin-bottom: 0;
   }
 }
+body > footer .nav-list {
+  margin-bottom: 30px;
+}
+body > footer .nav-list.social {
+  font-weight: 300;
+}
 .main {
   flex-grow: 1;
   align-self: center;
@@ -898,6 +904,12 @@ body > footer .nav-list.social {
   padding-right: 30px;
   padding-left: 30px;
   max-width: 1460px;
+}
+@media (max-width: 699px) {
+  .main {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
 }
 .canister {
   border: 1px solid #979797;
@@ -1124,6 +1136,11 @@ body > footer .nav-list.social {
 .advisor .input-wrapper input {
   margin: 0;
 }
+@media (max-width: 699px) {
+  .advisor .input-wrapper {
+    min-width: initial;
+  }
+}
 .advisor .btn {
   grid-area: button;
   display: flex;
@@ -1158,6 +1175,7 @@ body > footer .nav-list.social {
 }
 .nav-list {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
 }
 .nav-list li {
@@ -1439,6 +1457,7 @@ body > footer .nav-list.social {
 @media (max-width: 1024px) {
   .hero > .right {
     width: 100%;
+    min-width: initial;
     margin-left: 0;
     margin-top: 20px;
   }
