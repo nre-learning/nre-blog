@@ -1,5 +1,0 @@
-{{- $nested := .Get "nested" | default nil -}}
-{{- if $nested -}}<span class="arrow"></span>{{- end -}}
-<div class="link-list">
-  {{ .Inner | markdownify}}
-</div>
