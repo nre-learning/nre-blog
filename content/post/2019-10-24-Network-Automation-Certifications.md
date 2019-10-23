@@ -14,7 +14,7 @@ Following NRELabs [Community Stream #21](https://youtu.be/9uYrbueIsL0), we thoug
 
 Before heading down this path, be aware that software engineering, DevOps, and automation are vast topics.  The training for these certifications provide a brief introduction to a large set of topics, each of which other engineers have built entire careers out of.  The knowledge gained in the preparation for these certifications should be thought of as a foundation for further learning.  There is a great deal of training available on virtually all the topics covered by these certifications, and anyone getting serious about a specific topic or tool is encouraged to explore what is being offered.  However, if you really want to succeed in this network specialization, then you must learn how to train yourself through experimentation and by leveraging the innumerable resources available on the internet.  Having a solid mentor never hurts, either!
 
-Having said all that, here are the certs with links:
+Having said all that, here are the certs with links, and some text from the official sites:
 
 ### Network Automation
 
