@@ -59,5 +59,9 @@ The AWS Certified Advanced Networking – Specialty (ANS-C00) is intended for in
 
 ### Conclusion
 
+We discussed these at length on the latest NRE Labs Livestream:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9uYrbueIsL0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 We'll keep updating this list as we become aware of other relevant certification programs.  You can get a jumpstart now on many of the covered topics in these exams by visiting our own [NRELabs site](https://labs.networkreliability.engineering).  It's free, and there's no marketing-wall.  Happy studying!
 
