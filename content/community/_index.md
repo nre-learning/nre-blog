@@ -52,4 +52,4 @@ Welcome to the NRE Labs community. As a collaborative group of developers and us
 
 # Event Calendar
 
-{{< gcal src="aG5jODQzZmdhZDJkMHNnMWxnZjNiMTNxbmtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" >}}
+{{< gcal src="vnfq97fj3g2rm937po1iud5f34@group.calendar.google.com" >}}
