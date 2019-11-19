@@ -44,9 +44,9 @@ collections:
       - { label: 'Featured Image', name: 'featured_image', widget: 'image', default: '/images/nrelabs.png' }
       - { label: 'Tags', name: 'tags', widget: 'list', default: [] }
       - { label: 'Show Reading Time', name: 'show_reading_time', widget: 'boolean', default: true }
-      - label: 'Authors',
-        name: 'authors',
-        widget: 'list',
+      - label: 'Authors'
+        name: 'authors'
+        widget: 'list'
         field:
           label: 'Author'
           name: 'author'
