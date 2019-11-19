@@ -37,3 +37,16 @@ This is an educational platform aimed at helping industry adopt automation more 
 NRE Labs is built on Antidote, an open source project published on [GitHub](https://github.com/nre-learning/antidote) under an Apache v2 license.  Curriculum is published under Creative Commons. Anyone can join the developer community!   
 {{< /canister >}}
 {{< /three-col >}}
+
+<script>
+  // redirect to admin interface after netlify identity login
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
