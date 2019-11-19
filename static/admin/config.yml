@@ -16,42 +16,42 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
   - name: 'community'
-      label: 'Community'
-      folder: 'content/community'
-      create: true
-      fields:
-        - { label: 'Title', name: 'title' }
-        - { label: 'Body', name: 'body', widget: 'markdown' }
+    label: 'Community'
+    folder: 'content/community'
+    create: true
+    fields:
+      - { label: 'Title', name: 'title' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
 
   - name: 'resources'
-      label: 'Resources'
-      folder: 'content/resources'
-      create: true
-      fields:
-        - { label: 'Title', name: 'title' }
-        - { label: 'Type', name: 'type', default: 'post', widget: 'hidden' }
-        - { label: 'Body', name: 'body', widget: 'markdown' }
+    label: 'Resources'
+    folder: 'content/resources'
+    create: true
+    fields:
+      - { label: 'Title', name: 'title' }
+      - { label: 'Type', name: 'type', default: 'post', widget: 'hidden' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
 
   - name: 'post'
-      label: 'Blog'
-      folder: 'content/post'
-      create: true
-      slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-      fields:
-        - { label: 'Title', name: 'title' }
-        - { label: 'Date', name: 'date', widget: 'datetime' }
-        - { label: 'Description', name: 'description' }
-        - { label: 'Featured Image', name: 'featured_image', widget: 'image', default: '/images/nrelabs.png' }
-        - { label: 'Tags', name: 'tags', widget: 'list', default: [] }
-        - { label: 'Show Reading Time', name: 'show_reading_time', widget: 'boolean', default: true }
-        - label: 'Authors',
-          name: 'authors',
-          widget: 'list',
-          field:
-            label: 'Author'
-            name: 'author'
-            widget: 'object'
-            fields:
-              - { label: 'Name', name: 'name' }
-              - { label: 'Author Profile Link', name: 'link' }
-        - { label: 'Body', name: 'body', widget: 'markdown' }
+    label: 'Blog'
+    folder: 'content/post'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title' }
+      - { label: 'Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description' }
+      - { label: 'Featured Image', name: 'featured_image', widget: 'image', default: '/images/nrelabs.png' }
+      - { label: 'Tags', name: 'tags', widget: 'list', default: [] }
+      - { label: 'Show Reading Time', name: 'show_reading_time', widget: 'boolean', default: true }
+      - label: 'Authors',
+        name: 'authors',
+        widget: 'list',
+        field:
+          label: 'Author'
+          name: 'author'
+          widget: 'object'
+          fields:
+            - { label: 'Name', name: 'name' }
+            - { label: 'Author Profile Link', name: 'link' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
