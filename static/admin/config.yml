@@ -10,6 +10,7 @@ collections:
   - name: 'about'
     label: 'About'
     folder: 'content/about'
+    format: 'yaml-frontmatter'
     create: true
     fields:
       - { label: 'Title', name: 'title' }
@@ -26,6 +27,7 @@ collections:
   - name: 'resources'
     label: 'Resources'
     folder: 'content/resources'
+    format: 'yaml-frontmatter'
     create: true
     fields:
       - { label: 'Title', name: 'title' }
@@ -35,6 +37,7 @@ collections:
   - name: 'post'
     label: 'Blog'
     folder: 'content/post'
+    format: 'yaml-frontmatter'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
