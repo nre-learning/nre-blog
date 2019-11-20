@@ -38,7 +38,7 @@ collections:
   - name: 'post'
     label: 'Blog'
     folder: 'content/post'
-    preview_path: '/{{year}}/{{month}}/{{day}}/{{title}}/'
+    preview_path: '/{{year}}/{{month}}/{{title}}/'
     slug: '{{year}}-{{month}}-{{day}}-{{title}}'
     create: true
     fields:
