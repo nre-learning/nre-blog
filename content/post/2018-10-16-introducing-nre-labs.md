@@ -8,6 +8,8 @@ show_reading_time: true
 authors:
 - name: Matt Oswalt
   link: https://twitter.com/mierdin
+- name: Nils Lundquist
+  link: https://twitter.com/mierdin  
 ---
 
 We launched NRE Labs almost a month ago now, and wrote about it over on the Juniper forums on launch day:
