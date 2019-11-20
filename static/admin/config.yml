@@ -10,7 +10,7 @@ collections:
   - name: 'about'
     label: 'About'
     folder: 'content/about'
-    preview_path: '/about/{{slug}}'
+    preview_path: '/about/{{title}}/'
     create: true
     fields:
       - { label: 'Title', name: 'title' }
@@ -19,7 +19,7 @@ collections:
   - name: 'community'
     label: 'Community'
     folder: 'content/community'
-    preview_path: '/community/{{slug}}'
+    preview_path: '/community/{{title}}/'
     create: true
     fields:
       - { label: 'Title', name: 'title' }
@@ -28,7 +28,7 @@ collections:
   - name: 'resources'
     label: 'Resources'
     folder: 'content/resources'
-    preview_path: '/resources/{{slug}}'
+    preview_path: '/resources/{{title}}/'
     create: true
     fields:
       - { label: 'Title', name: 'title' }
@@ -38,15 +38,15 @@ collections:
   - name: 'post'
     label: 'Blog'
     folder: 'content/post'
-    preview_path: '/post/{{slug}}'
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    preview_path: '/post/{{year}}/{{month}}/{{day}}/{{title}}/'
+    slug: '{{year}}-{{month}}-{{day}}-{{title}}'
     create: true
     fields:
       - { label: 'Title', name: 'title' }
       - { label: 'Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description' }
       - { label: 'Featured Image', name: 'featured_image', widget: 'image', default: '/images/nrelabs.png' }
-      - { label: 'Tags', name: 'tags', widget: 'list', default: [] }
+      - { label: 'Tags', name: 'tags', widget: 'list', default: [], required: false  }
       - { label: 'Show Reading Time', name: 'show_reading_time', widget: 'boolean', default: true }
       - label: 'Authors'
         name: 'authors'
