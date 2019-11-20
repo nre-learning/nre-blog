@@ -11,12 +11,12 @@ Start by reading the How to Contribute [overview](https://antidoteproject.readth
 {{< canister color="medium-gray" >}}
 ### See More Resources
 {{< link-list >}}
-- [Setting up your development environment](https://antidoteproject.readthedocs.io/en/latest/hacking/curriculum.html)
-- [Documentation](https://antidoteproject.readthedocs.io/en/latest/platform/index.html)
-- [Support and release planning forums](#)
+* [Setting up your development environment](https://antidoteproject.readthedocs.io/en/latest/hacking/curriculum.html)
+* [Documentation](https://antidoteproject.readthedocs.io/en/latest/platform/index.html)
+* [Support and release planning forums](#)
   {{< link-list nested="true" >}}
-  - [Curriculum project management](https://community.networkreliability.engineering/c/curriculum-project-management)
-  - [Antidote support for curriculum developers](https://community.networkreliability.engineering/c/antidote-support)  
+  * [Curriculum project management](https://community.networkreliability.engineering/c/curriculum-project-management)
+  * [Antidote support for curriculum developers](https://community.networkreliability.engineering/c/antidote-support)  
   {{< /link-list >}}
 {{< /link-list >}}
 {{< /canister >}}

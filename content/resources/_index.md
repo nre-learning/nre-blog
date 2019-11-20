@@ -9,10 +9,10 @@ Whether you’re just interested in learning more about network reliability engi
 ### NRE Resources
 
 {{< link-list >}}
-- [Intro to Network Reliability Engineering]({{< relref introduction >}})
-- [Community interviews](https://www.youtube.com/watch?v=l_TUYSkZcv4&list=PLjM9FuOtKYVhXixs9rEjf7brmPDSWPe8R)
-- [Blog]({{< relref post >}})
-- [Twitter](https://twitter.com/NRELabs)
+* [Intro to Network Reliability Engineering]({{< relref introduction >}})
+* [Community interviews](https://www.youtube.com/watch?v=l_TUYSkZcv4&list=PLjM9FuOtKYVhXixs9rEjf7brmPDSWPe8R)
+* [Blog]({{< relref post >}})
+* [Twitter](https://twitter.com/NRELabs)
 {{< /link-list >}}
 {{< /canister >}}
 
@@ -20,8 +20,8 @@ Whether you’re just interested in learning more about network reliability engi
 ### User Support
 
 {{< link-list >}}
-- [Curriculum forum](https://community.networkreliability.engineering/t/about-the-nre-labs-curriculum-category/16)
-- [Twitter](https://twitter.com/NRELabs)
+* [Curriculum forum](https://community.networkreliability.engineering/t/about-the-nre-labs-curriculum-category/16)
+* [Twitter](https://twitter.com/NRELabs)
 {{< /link-list >}}
 {{< /canister >}}
 
@@ -29,14 +29,14 @@ Whether you’re just interested in learning more about network reliability engi
 ### Developer Support
 
 {{< link-list >}}
-- [Documentation](https://antidoteproject.readthedocs.io/en/latest/index.html)
-- [Getting started](#)
+* [Documentation](https://antidoteproject.readthedocs.io/en/latest/index.html)
+* [Getting started](#)
   {{< link-list nested="true" >}}
-  - [For Antidote contributors](https://antidoteproject.readthedocs.io/en/latest/hacking/platform.html)
-  - [For curriculum developers]({{< relref "resources/contributing-lessons" >}})   
+  * [For Antidote contributors](https://antidoteproject.readthedocs.io/en/latest/hacking/platform.html)
+  * [For curriculum developers]({{< relref "resources/contributing-lessons" >}})   
   {{< /link-list >}}
-- [GitHub](https://github.com/nre-learning)
-- [Forums](https://community.networkreliability.engineering/)
+* [GitHub](https://github.com/nre-learning)
+* [Forums](https://community.networkreliability.engineering/)
 {{< /link-list >}}
 {{< /canister >}}
 {{< /three-col >}}
