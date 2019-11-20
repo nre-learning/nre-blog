@@ -10,7 +10,7 @@ collections:
   - name: 'about'
     label: 'About'
     folder: 'content/about'
-    format: 'yaml-frontmatter'
+    preview_path: '/about/{{slug}}'
     create: true
     fields:
       - { label: 'Title', name: 'title' }
@@ -19,6 +19,7 @@ collections:
   - name: 'community'
     label: 'Community'
     folder: 'content/community'
+    preview_path: '/community/{{slug}}'
     create: true
     fields:
       - { label: 'Title', name: 'title' }
@@ -27,7 +28,7 @@ collections:
   - name: 'resources'
     label: 'Resources'
     folder: 'content/resources'
-    format: 'yaml-frontmatter'
+    preview_path: '/resources/{{slug}}'
     create: true
     fields:
       - { label: 'Title', name: 'title' }
@@ -37,9 +38,9 @@ collections:
   - name: 'post'
     label: 'Blog'
     folder: 'content/post'
-    format: 'yaml-frontmatter'
-    create: true
+    preview_path: '/post/{{slug}}'
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    create: true
     fields:
       - { label: 'Title', name: 'title' }
       - { label: 'Date', name: 'date', widget: 'datetime' }
@@ -50,11 +51,6 @@ collections:
       - label: 'Authors'
         name: 'authors'
         widget: 'list'
-        field:
-          label: 'Author'
-          name: 'author'
-          widget: 'object'
-          fields:
-            - { label: 'Name', name: 'name' }
-            - { label: 'Author Profile Link', name: 'link' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+        fields:
+          - { label: 'Name', name: 'name' }
+          - { label: 'Author Profile Link', name: 'link' }
