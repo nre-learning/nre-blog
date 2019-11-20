@@ -10,7 +10,7 @@ collections:
   - name: 'about'
     label: 'About'
     folder: 'content/about'
-    preview_path: '/about/{{title}}/'
+    preview_path: '/about/{{slug}}/'
     create: true
     fields:
       - { label: 'Title', name: 'title' }
@@ -19,7 +19,7 @@ collections:
   - name: 'community'
     label: 'Community'
     folder: 'content/community'
-    preview_path: '/community/{{title}}/'
+    preview_path: '/community/{{slug}}/'
     create: true
     fields:
       - { label: 'Title', name: 'title' }
@@ -28,7 +28,7 @@ collections:
   - name: 'resources'
     label: 'Resources'
     folder: 'content/resources'
-    preview_path: '/resources/{{title}}/'
+    preview_path: '/resources/{{slug}}/'
     create: true
     fields:
       - { label: 'Title', name: 'title' }
