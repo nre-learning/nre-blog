@@ -54,3 +54,4 @@ collections:
         fields:
           - { label: 'Name', name: 'name' }
           - { label: 'Author Profile Link', name: 'link' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
