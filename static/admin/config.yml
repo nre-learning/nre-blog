@@ -32,7 +32,8 @@ collections:
     create: true
     fields:
       - { label: 'Title', name: 'title' }
-      - { label: 'Type', name: 'type', default: 'post', widget: 'hidden' }
+      - { label: 'Type', name: 'type', default: 'post', widget: 'hidden', required: false }
+      - { label: 'Show Page Listing', name: 'showPageList', widget: 'hidden', required: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
   - name: 'post'
