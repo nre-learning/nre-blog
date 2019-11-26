@@ -1,0 +1,58 @@
+backend:
+  name: git-gateway
+  branch: new-theme # todo: set to master pre-merge
+
+publish_mode: editorial_workflow
+media_folder: 'static/images/uploads'
+public_folder: '/images/uploads'
+
+collections:
+  - name: 'about'
+    label: 'About'
+    folder: 'content/about'
+    preview_path: '/about/{{slug}}/'
+    create: true
+    fields:
+      - { label: 'Title', name: 'title' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'community'
+    label: 'Community'
+    folder: 'content/community'
+    preview_path: '/community/{{slug}}/'
+    create: true
+    fields:
+      - { label: 'Title', name: 'title' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'resources'
+    label: 'Resources'
+    folder: 'content/resources'
+    preview_path: '/resources/{{slug}}/'
+    create: true
+    fields:
+      - { label: 'Title', name: 'title' }
+      - { label: 'Type', name: 'type', default: 'post', widget: 'hidden', required: false }
+      - { label: 'Show Page Listing', name: 'showPageList', widget: 'hidden', required: false }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'post'
+    label: 'Blog'
+    folder: 'content/post'
+    preview_path: '/{{year}}/{{month}}/{{title}}/'
+    slug: '{{year}}-{{month}}-{{day}}-{{title}}'
+    create: true
+    fields:
+      - { label: 'Title', name: 'title' }
+      - { label: 'Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description' }
+      - { label: 'Featured Image', name: 'featured_image', widget: 'image', default: '/images/nrelabs.png' }
+      - { label: 'Tags', name: 'tags', widget: 'list', default: [], required: false  }
+      - { label: 'Show Reading Time', name: 'show_reading_time', widget: 'boolean', default: true }
+      - label: 'Authors'
+        name: 'authors'
+        widget: 'list'
+        fields:
+          - { label: 'Name', name: 'name' }
+          - { label: 'Author Profile Link', name: 'link' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
