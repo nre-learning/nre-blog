@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: new-theme # todo: set to master pre-merge
+  branch: master # todo: set to master pre-merge
 
 publish_mode: editorial_workflow
 media_folder: 'static/images/uploads'
