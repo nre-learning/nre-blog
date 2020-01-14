@@ -1,4 +1,4 @@
-baseURL = "https://networkreliability.engineering/"
+baseURL = "https://nrelabs.io/"
 languageCode = "en-us"
 theme = "nre-hugo-theme"
 googleAnalytics = "UA-120903857-1"
@@ -37,7 +37,7 @@ page = ["HTML"]
 
 [[menu.social]]
     name = "Forums"
-    url = "https://community.networkreliability.engineering/"
+    url = "https://discuss.nrelabs.io/"
     weight = 1
 
 [[menu.social]]
