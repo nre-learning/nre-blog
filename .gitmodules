@@ -3,4 +3,4 @@
 	url = https://github.com/calintat/minimal.git
 [submodule "themes/nre-hugo-theme"]
 	path = themes/nre-hugo-theme
-	url = https://github.com/nlundquist/nre-hugo-theme
+	url = https://github.com/nre-learning/nre-hugo-theme
