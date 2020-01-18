@@ -10,9 +10,8 @@ Welcome to the NRE Labs community. As a collaborative group of developers and us
 {{<link-list>}}
 
 * [Weekly Community Meetings](https://community.networkreliability.engineering/c/weekly-standup)
-* [Forums (searchable)](https://community.networkreliability.engineering/)
-* [Twitter](https://twitter.com/NRELabs) {{< /link-list >}} {{< /canister >}}
-      
+* [Community Forums](https://discuss.nrelabs.io)
+* [Twitter](https://twitter.com/NRELabs) {{< /link-list >}} {{< /canister >}}     
 
 {{< canister color="medium-gray" >}}
 
@@ -29,8 +28,8 @@ Welcome to the NRE Labs community. As a collaborative group of developers and us
   * [For non-developers](https://antidoteproject.readthedocs.io/en/latest/contribute/nondev.html)\
     {{< /link-list >}}
 * [GitHub](https://github.com/nre-learning)
-* [Community Forums](https://discuss.nrelabs.io) {{< /link-list >}} {{% /canister %}}
-      
+
+  {{< /link-list >}} {{% /canister %}}     
 
 {{< canister color="medium-gray" >}}
 
@@ -39,8 +38,7 @@ Welcome to the NRE Labs community. As a collaborative group of developers and us
 {{<link-list>}}
 
 * [Governance page](https://github.com/nre-learning/proposals/blob/governance-draft/governance.md)
-* [Code of Conduct](https://github.com/nre-learning/proposals/pull/2) {{< /link-list >}} {{< /canister >}}
-  {{< /three-col >}}
+* [Code of Conduct](https://github.com/nre-learning/proposals/pull/2) {{< /link-list >}} {{< /canister >}} {{< /three-col >}}
 
 <h3 class="inline-block">Latest Videos</h3>
 <a href="https://www.youtube.com/channel/UCbfZq3sDGx6gmv7KRrhRh4g"
