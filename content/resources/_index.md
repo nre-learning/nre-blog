@@ -10,10 +10,11 @@ Whether you’re just interested in learning more about network reliability engi
 
 {{< link-list >}}
 
-* \[Intro to Network Reliability Engineering]({{< relref introduction >}})
+* [Intro to Network Reliability Engineering]({{< relref introduction >}})
 * [Community Interviews](https://www.youtube.com/watch?v=l_TUYSkZcv4&list=PLjM9FuOtKYVhXixs9rEjf7brmPDSWPe8R)
-* \[Blog]({{< relref post >}})
-* [Twitter](https://twitter.com/NRELabs) {{< /link-list >}}
+* [Blog]({{< relref post >}})
+* [Twitter](https://twitter.com/NRELabs)
+* [NRE Labs In The Wild]({{< relref "community/nre-labs-in-the-wild" >}}) {{< /link-list >}}
   {{< /canister >}}
 
 {{< canister color="medium-gray" >}}
@@ -22,7 +23,7 @@ Whether you’re just interested in learning more about network reliability engi
 
 {{< link-list >}}
 
-* [Curriculum forum](https://community.networkreliability.engineering/t/about-the-nre-labs-curriculum-category/16)
+* [Curriculum Forums](https://discuss.nrelabs.io/c/nre-labs-curriculum/7)
 * [Twitter](https://twitter.com/NRELabs) {{< /link-list >}}
   {{< /canister >}}
 
@@ -39,7 +40,7 @@ Whether you’re just interested in learning more about network reliability engi
   * \[For curriculum developers]({{< relref "resources/contributing-lessons" >}})\
     {{< /link-list >}}
 * [GitHub](https://github.com/nre-learning)
-* [Forums](https://community.networkreliability.engineering/) {{< /link-list >}}
+* [Community Forums](https://discuss.nrelabs.io/) {{< /link-list >}}
   {{< /canister >}}
   {{< /three-col >}}
 
