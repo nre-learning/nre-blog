@@ -21,8 +21,7 @@ NRE Labs is an open source educational project focused on making network automat
 
 {{< advisor >}}
 
-<antidote-promoted-lessons host="https://go.nrelabs.io">
-</antidote-promoted-lessons>
+{{< promotedlessons >}}
 
 {{< three-col >}}
 {{< canister color="primary" >}}   
