@@ -33,7 +33,7 @@ As a community-powered hub for advancing network engineering and automation skil
 
 {{<link-list>}}
 
-* [CloudCast](https://www.thecloudcast.net/2019/04/network-reliability-engineering-nre-nre.html)
+* [The CloudCast](https://www.thecloudcast.net/2019/04/network-reliability-engineering-nre-nre.html)
 * [Packet Pushers: Priority Queue](https://packetpushers.net/podcast/pq-158-introducing-nre-labs-for-network-automation-training/)
 * [Datanauts](https://packetpushers.net/podcast/datanauts-170-nre-labs-a-first-step-for-network-automation-training/)
 * [Network Break](https://packetpushers.net/podcast/network-break-206-bloomberg-doubles-down-on-hardware-hacks-juniper-goes-multicloud/) {{< /link-list >}} {{< /canister >}} {{< /three-col >}}
