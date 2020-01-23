@@ -9,7 +9,7 @@ Welcome to the NRE Labs community. As a collaborative group of developers and us
 
 {{<link-list>}}
 
-* [Weekly Community Meetings](https://community.networkreliability.engineering/c/weekly-standup)
+* [Weekly Community Meetings](https://discuss.nrelabs.io/c/weekly-standup)
 * [Community Forums](https://discuss.nrelabs.io)
 * [Twitter](https://twitter.com/NRELabs) {{< /link-list >}} {{< /canister >}}     
 
