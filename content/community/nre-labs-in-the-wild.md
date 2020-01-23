@@ -54,11 +54,7 @@ As a community-powered hub for advancing network engineering and automation skil
 
 ## Videos
 
-{{< youtube YhbWBX71yGQ >}}
-
 <iframe src="https://player.vimeo.com/video/329076987" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-## Case Studies
+<iframe src="https://player.vimeo.com/video/317165009" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-- [Packet](https://www.packet.com/media/images/5MxC-dkyh.labcoats.jpg)
-- One more coming soon!
