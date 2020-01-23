@@ -26,9 +26,11 @@ As a community-powered hub for advancing network engineering and automation skil
 
 ### Case Studies
 ﻿
-{{< link-list >}}  
-- [Packet](https://www.packet.com/media/images/5MxC-dkyh.labcoats.jpg)
-- Another is in the works - stay tuned!
+{{< link-list >}}
+
+* [Packet](https://www.packet.com/media/images/5MxC-dkyh.labcoats.jpg)
+* Another is in the works - stay tuned!
+
 {{< /link-list >}}  
 
 {{< /canister >}}  
@@ -52,7 +54,7 @@ As a community-powered hub for advancing network engineering and automation skil
 
 ## Videos
 
-{{< youtube YhbWBX71yGQ "unconstrained" >}}
+{{< youtube YhbWBX71yGQ >}}
 
 <iframe src="https://player.vimeo.com/video/329076987" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
