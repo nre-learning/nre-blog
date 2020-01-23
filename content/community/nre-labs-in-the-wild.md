@@ -4,7 +4,6 @@ title: NRE Labs In The Wild
 As a community-powered hub for advancing network engineering and automation skill-sets, NRE Labs has been prominently featured in blogs, podcasts, case studies and publications all across the industry.
 ﻿
 {{< three-col >}}{{< canister color="medium-gray" >}}
-
 ### Blogs
 ﻿
 {{<link-list>}}
@@ -15,11 +14,9 @@ As a community-powered hub for advancing network engineering and automation skil
 * [NFD20 - Juniper and NRE Labs](https://gingmar.wordpress.com/2019/02/16/juniper-nre-lab/)
 * [Creating Lessons for the Antidote Network Emulator](http://www.brianlinkletter.com/create-lab-lessons-for-the-nre-labs-antidote-network-emulator/){{< /link-list >}}
   {{< /canister >}}
-
 {{< canister color="medium-gray" >}}﻿
-
 ### Publications
-﻿
+
 {{< link-list >}}
 
 * [Case Study: NRE Labs on Packet](https://www.packet.com/about/customers/nre-labs/)
