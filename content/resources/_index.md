@@ -23,7 +23,7 @@ Whether you’re just interested in learning more about network reliability engi
 
 {{< link-list >}}
 
-* [Curriculum forum](https://community.networkreliability.engineering/t/about-the-nre-labs-curriculum-category/16)
+* [Curriculum Forums](https://discuss.nrelabs.io/t/about-the-nre-labs-curriculum-category/16)
 * [Twitter](https://twitter.com/NRELabs) {{< /link-list >}}
   {{< /canister >}}
 
