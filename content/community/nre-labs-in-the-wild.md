@@ -2,6 +2,8 @@
 title: NRE Labs In The Wild
 ---
 As a community-powered hub for advancing network engineering and automation skill-sets, NRE Labs has been prominently featured in blogs, podcasts, case studies and publications all across the industry.
+﻿
+{{< three-col >}} 
 
 {{< canister color="medium-gray" >}}
 
@@ -20,6 +22,9 @@ As a community-powered hub for advancing network engineering and automation skil
 
 {{< /canister >}}  
 
+{{< canister color="medium-gray" >}}﻿
+{{< /canister >}}  
+
 {{< canister color="medium-gray" >}}
 
 ## Podcasts
@@ -34,6 +39,8 @@ As a community-powered hub for advancing network engineering and automation skil
 {{< /link-list >}}  
 ﻿
 {{< /canister >}}  
+
+{{< /three-col >}}
 
 ## Videos
 
