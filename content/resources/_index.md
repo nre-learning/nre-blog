@@ -40,7 +40,7 @@ Whether you’re just interested in learning more about network reliability engi
   * \[For curriculum developers]({{< relref "resources/contributing-lessons" >}})\
     {{< /link-list >}}
 * [GitHub](https://github.com/nre-learning)
-* [Forums](https://community.networkreliability.engineering/) {{< /link-list >}}
+* [Community Forums](https://discuss.nrelabs.io/) {{< /link-list >}}
   {{< /canister >}}
   {{< /three-col >}}
 
