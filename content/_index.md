@@ -7,7 +7,7 @@ menu:
 
 {{< hero >}}
 {{< left >}}
-# Automation. Unshackled
+# Automation. Unshackled.
 
 ### Learn automation by doing it. Right now, right here, in your browser.
 
@@ -29,12 +29,12 @@ NRE Labs assumes nothing about your background or training. You don’t have to 
 
 {{< canister color="primary" >}}
 ### User-centric. No strings.
-This is an educational platform aimed at helping industry adopt automation more readily. So no paywalls, no tracking, no spam.   
+This is an educational platform aimed at helping industry adopt automation more readily. So, there are no paywalls, no tracking, no spam.   
 {{< /canister >}}
 
 {{< canister color="primary" >}}
 ### Open. Yours to shape.
-NRE Labs is built on Antidote, an open source project published on [GitHub](https://github.com/nre-learning/antidote) under an Apache v2 license.  Curriculum is published under Creative Commons. Anyone can join the developer community!   
+NRE Labs is built on Antidote, an open source project published on [GitHub](https://github.com/nre-learning/antidote) under an Apache v2 license. The curriculum itself is published under Creative Commons. Anyone can join the developer community!   
 {{< /canister >}}
 {{< /three-col >}}
 
