@@ -23,17 +23,25 @@ As a community-powered hub for advancing network engineering and automation skil
 {{< /canister >}}  
 
 {{< canister color="medium-gray" >}}﻿
+
+### Case Studies
+﻿
+{{< link-list >}}  
+- [Packet](https://www.packet.com/media/images/5MxC-dkyh.labcoats.jpg)
+- Another is in the works - stay tuned!
+{{< /link-list >}}  
+
 {{< /canister >}}  
 
 {{< canister color="medium-gray" >}}
 
-## Podcasts
+### Podcasts
 
 {{<link-list>}}
 
-* [CloudCast](https://www.thecloudcast.net/2019/04/network-reliability-engineering-nre-nre.html
-* [Packet Pushers: Priority Queue](https://packetpushers.net/podcast/pq-158-introducing-nre-labs-for-network-automation-training/
-* [Datanauts](https://packetpushers.net/podcast/datanauts-170-nre-labs-a-first-step-for-network-automation-training/
+* [CloudCast](https://www.thecloudcast.net/2019/04/network-reliability-engineering-nre-nre.html)
+* [Packet Pushers: Priority Queue](https://packetpushers.net/podcast/pq-158-introducing-nre-labs-for-network-automation-training/)
+* [Datanauts](https://packetpushers.net/podcast/datanauts-170-nre-labs-a-first-step-for-network-automation-training/)
 * [Network Break](https://packetpushers.net/podcast/network-break-206-bloomberg-doubles-down-on-hardware-hacks-juniper-goes-multicloud/)
 
 {{< /link-list >}}  
