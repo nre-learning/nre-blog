@@ -33,11 +33,11 @@ Whether you’re just interested in learning more about network reliability engi
 
 {{< link-list >}}
 
-* [Documentation](https://antidoteproject.readthedocs.io/en/latest/index.html)
+* [Documentation](https://docs.nrelabs.io/)
 * [Getting started](#) {{< link-list nested="true" >}}
 
-  * [For Antidote contributors](https://antidoteproject.readthedocs.io/en/latest/hacking/platform.html)
-  * \[For curriculum developers]({{< relref "resources/contributing-lessons" >}})\
+  * [For Curriculum Contributors]({{< relref "resources/contributing-lessons" >}})
+  * \[For Antidote Developers](https://docs.nrelabs.io/antidote/development)\
     {{< /link-list >}}
 * [GitHub](https://github.com/nre-learning)
 * [Community Forums](https://discuss.nrelabs.io/) {{< /link-list >}}
