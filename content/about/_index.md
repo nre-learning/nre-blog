@@ -1,9 +1,7 @@
 ---
-title: About
+title: About NRE Labs
 ---
 {{< article >}}
-
-### Why NRE Labs?
 
 While the networking industry has dreamed of automation for years, little has been accomplished to date. Network engineers often lack comfort with automation tools and techniques developed by other parts of the infrastructure sphere. In addition, many automation courses assume learners already know Python or other scripting languages, or they expect students to download and deploy a variety of tools before they can even start learning. Finally, many tools and courses are not tailored to the needs or interests of network engineers.
 
@@ -30,8 +28,6 @@ NRE Labs is currently supported by Juniper Networks and plans to transition its 
 To get started, learners can simply [navigate to the lesson catalog](https://go.nrelabs.io/catalog/), select a lesson, and dive in.
 
 The NRE Labs community also provides information about the project as well as NRE-related topics on bi-weekly video streams and on [Twitter](https://twitter.com/nrelabs).
-
-The project members also hold [public standups](https://discuss.nrelabs.io/t/about-nre-labs-weekly-standups/84) that take place every week at 8AM Pacific Time. All are free to join! For those that are unable to attend, sessions are recorded and [posted to YouTube](https://www.youtube.com/playlist?list=PLjM9FuOtKYVjugoYMAHEecnCXSIFSb1zS) within a day or two.
 
 For help with any aspect of the project, users and contributors are encouraged to join the conversation on the NRE Labs community forums at [https://discuss.nrelabs.io/](https://discuss.nrelabs.io/). {{< /aside >}}
 
