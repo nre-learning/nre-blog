@@ -31,8 +31,6 @@ To get started, learners can simply [navigate to the lesson catalog](https://go.
 
 The NRE Labs community also provides information about the project as well as NRE-related topics on bi-weekly video streams and on [Twitter](https://twitter.com/nrelabs).
 
-The project members also hold [public standups](https://discuss.nrelabs.io/t/about-nre-labs-weekly-standups/84) that take place every week at 8AM Pacific Time. All are free to join! For those that are unable to attend, sessions are recorded and [posted to YouTube](https://www.youtube.com/playlist?list=PLjM9FuOtKYVjugoYMAHEecnCXSIFSb1zS) within a day or two.
-
 For help with any aspect of the project, users and contributors are encouraged to join the conversation on the NRE Labs community forums at [https://discuss.nrelabs.io/](https://discuss.nrelabs.io/). {{< /aside >}}
 
 {{< advisor >}}
