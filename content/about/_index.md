@@ -1,9 +1,7 @@
 ---
-title: About
+title: About NRE Labs
 ---
 {{< article >}}
-
-### Why NRE Labs?
 
 While the networking industry has dreamed of automation for years, little has been accomplished to date. Network engineers often lack comfort with automation tools and techniques developed by other parts of the infrastructure sphere. In addition, many automation courses assume learners already know Python or other scripting languages, or they expect students to download and deploy a variety of tools before they can even start learning. Finally, many tools and courses are not tailored to the needs or interests of network engineers.
 
