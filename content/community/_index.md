@@ -20,11 +20,11 @@ Welcome to the NRE Labs community. As a collaborative group of developers and us
 {{<link-list>}}
 
 * [Antidote Platform Documentation](https://antidoteproject.readthedocs.io/en/latest/index.html)
-* [Getting started](#) {{< link-list nested="true" >}}
+* [Getting Started](#) {{< link-list nested="true" >}}
 
   * [For Curriculum Contributors]({{< relref "resources/contributing-lessons" >}})
-  * \[For Antidote Developers](https://docs.nrelabs.io/antidote/development)\     
-  * [For Non-Developers](https://docs.nrelabs.io/other-resources/help-im-not-a-developer)\
+  * [For Antidote Developers](https://docs.nrelabs.io/antidote/development)
+  * [For Non-Developers](https://docs.nrelabs.io/other-resources/help-im-not-a-developer)
     {{< /link-list >}}
 * [GitHub](https://github.com/nre-learning)
 
