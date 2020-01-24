@@ -22,10 +22,9 @@ Welcome to the NRE Labs community. As a collaborative group of developers and us
 * [Antidote Platform Documentation](https://antidoteproject.readthedocs.io/en/latest/index.html)
 * [Getting started](#) {{< link-list nested="true" >}}
 
-  * [For Antidote contributors](https://antidoteproject.readthedocs.io/en/latest/hacking/platform.html)
-  * \[For curriculum developers]({{< relref "resources/contributing-lessons" >}})   
-  * [For documentation contributors](https://antidoteproject.readthedocs.io/en/latest/contribute/docs.html#contrib-docs)   
-  * [For non-developers](https://antidoteproject.readthedocs.io/en/latest/contribute/nondev.html)\
+  * [For Curriculum Contributors]({{< relref "resources/contributing-lessons" >}})
+  * \[For Antidote Developers](https://docs.nrelabs.io/antidote/development)\     
+  * [For Non-Developers](https://docs.nrelabs.io/other-resources/help-im-not-a-developer)\
     {{< /link-list >}}
 * [GitHub](https://github.com/nre-learning)
 
@@ -37,8 +36,8 @@ Welcome to the NRE Labs community. As a collaborative group of developers and us
 
 {{<link-list>}}
 
-* [Governance page](https://github.com/nre-learning/proposals/blob/governance-draft/governance.md)
-* [Code of Conduct](https://github.com/nre-learning/proposals/pull/2) {{< /link-list >}} {{< /canister >}} {{< /three-col >}}
+* [Governance Document](https://github.com/nre-learning/proposals/blob/master/governance.md)
+* [Code of Conduct (pre-ratification)](https://github.com/nre-learning/proposals/blob/coc-draft/codeofconduct.md) {{< /link-list >}} {{< /canister >}} {{< /three-col >}}
 
 <h3 class="inline-block">Latest Videos</h3>
 <a href="https://www.youtube.com/channel/UCbfZq3sDGx6gmv7KRrhRh4g"
