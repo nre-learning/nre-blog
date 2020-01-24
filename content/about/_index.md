@@ -31,6 +31,6 @@ To get started, learners can simply [navigate to the lesson catalog](https://go.
 
 The NRE Labs community also provides information about the project as well as NRE-related topics on bi-weekly video streams and on [Twitter](https://twitter.com/nrelabs).
 
-For help with any aspect of the project, users and contributors are encouraged to join the conversation on the NRE Labs community forums at [](https://discuss.nrelabs.io/). {{< /aside >}}
+For help with any aspect of the project, users and contributors are encouraged to join the conversation on the NRE Labs community forums at [https://discuss.nrelabs.io/](https://discuss.nrelabs.io/). {{< /aside >}}
 
 {{< advisor >}}
