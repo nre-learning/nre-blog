@@ -37,7 +37,7 @@ Whether you’re just interested in learning more about network reliability engi
 * [Getting started](#) {{< link-list nested="true" >}}
 
   * [For Curriculum Contributors]({{< relref "resources/contributing-lessons" >}})
-  * \[For Antidote Developers](https://docs.nrelabs.io/antidote/development)\
+  * [For Antidote Developers](https://docs.nrelabs.io/antidote/development)
     {{< /link-list >}}
 * [GitHub](https://github.com/nre-learning)
 * [Community Forums](https://discuss.nrelabs.io/) {{< /link-list >}}
