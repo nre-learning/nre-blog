@@ -27,7 +27,7 @@ NRE Labs is currently supported by Juniper Networks and plans to transition its 
 
 ### Getting Started
 
-To get started, learners can simply [navigate to the lesson catalog](https://go.nrelabs.io/catalog/)[](https://labs.networkreliability.engineering/), select a lesson, and dive in.
+To get started, learners can simply [navigate to the lesson catalog](https://go.nrelabs.io/catalog/), select a lesson, and dive in.
 
 The NRE Labs community also provides information about the project as well as NRE-related topics on bi-weekly video streams and on [Twitter](https://twitter.com/nrelabs).
 
