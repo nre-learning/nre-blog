@@ -37,7 +37,7 @@ Welcome to the NRE Labs community. As a collaborative group of developers and us
 {{<link-list>}}
 
 * [Governance Document](https://github.com/nre-learning/proposals/blob/master/governance.md)
-* [Code of Conduct (pre-ratification)](https://github.com/nre-learning/proposals/blob/coc-draft/codeofconduct.md) {{< /link-list >}} {{< /canister >}} {{< /three-col >}}
+* [Code of Conduct](https://github.com/nre-learning/proposals/blob/master/codeofconduct.md) {{< /link-list >}} {{< /canister >}} {{< /three-col >}}
 
 <h3 class="inline-block">Latest Videos</h3>
 <a href="https://www.youtube.com/channel/UCbfZq3sDGx6gmv7KRrhRh4g"
