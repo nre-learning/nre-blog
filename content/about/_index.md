@@ -3,7 +3,7 @@ title: About NRE Labs
 ---
 {{< article >}}
 
-While the networking industry has dreamed of automation for years, little has been accomplished to date. Network engineers often lack comfort with automation tools and techniques developed by other parts of the infrastructure sphere. In addition, many automation courses assume learners already know Python or other scripting languages, or they expect students to download and deploy a variety of tools before they can even start learning. Finally, many tools and courses are not tailored to the needs or interests of network engineers.
+While the networking industry has dreamed of automation for years, network operations for many organizations are still dominated by manual interactions at the individual device CLI. Network engineers often lack comfort with automation tools and techniques developed by other parts of the infrastructure sphere. In addition, many automation courses assume learners already know Python or other scripting languages, or they expect students to download and deploy a variety of tools before they can even start learning. Finally, many tools and courses are not tailored to the needs or interests of network engineers.
 
 NRE Labs was designed to eliminate as many of these obstacles as possible. It’s free. No complicated set up is required—everything runs in the browser. Users are not tracked, and no personal information is required to use the platform or participate in the community. It’s open source, vendor-inclusive, and assumes a heterogeneous environment. Lessons in NRE Labs are organized into real-life NetOps contexts and workflows.
 
