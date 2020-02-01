@@ -19,7 +19,6 @@ Welcome to the NRE Labs community. As a collaborative group of developers and us
 
 {{<link-list>}}
 
-* [Antidote Platform Documentation](https://docs.nrelabs.io/antidote/platform-documentation/antidote-architecture)
 * [Getting Started](#) {{< link-list nested="true" >}}
 
   * [For Curriculum Contributors]({{< relref "resources/contributing-lessons" >}})
