@@ -34,7 +34,7 @@ This is an educational platform aimed at helping industry adopt automation more 
 
 {{< canister color="primary" >}}
 ### Open. Yours to shape.
-NRE Labs is built on Antidote, an open source project published on [GitHub](https://github.com/nre-learning/antidote) under an Apache v2 license. The curriculum itself is published under Creative Commons. Anyone can join the developer community!   
+NRE Labs is built on Antidote, an open source project published on [GitHub](https://github.com/nre-learning) under an Apache v2 license. The curriculum itself is published under Creative Commons. Anyone can join the developer community!   
 {{< /canister >}}
 {{< /three-col >}}
 
