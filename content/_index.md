@@ -15,7 +15,7 @@ NRE Labs is an open source educational project focused on making network automat
 {{< /left >}}
 
 {{< right>}}
-{{< youtube YhbWBX71yGQ "unconstrained" >}}
+{{< youtube GtwFXqBZ0VU "unconstrained" >}}
 {{< /right >}}
 {{< /hero >}}
 
