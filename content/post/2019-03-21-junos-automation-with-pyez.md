@@ -1,7 +1,7 @@
 ---
 date: 2019-03-21T00:00:00-00:00
 description: "Manage your network in a programmable way."
-featured_image: "https://networkreliability.engineering/images/nrelabs.png"
+featured_image: "/images/nrelabs.png"
 tags: [configuration]
 title: "Junos Automation with PyEZ"
 show_reading_time: true

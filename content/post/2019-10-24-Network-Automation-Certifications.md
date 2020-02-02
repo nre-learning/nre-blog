@@ -1,7 +1,7 @@
 ---
 date: 2019-10-24T00:00:00-00:00
 description: ""
-featured_image: "https://networkreliability.engineering/images/2019/10/brain.jpg"
+featured_image: "/images/2019/10/brain.jpg"
 tags: []
 title: "Network Automation Certifications"
 show_reading_time: true

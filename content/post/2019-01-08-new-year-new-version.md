@@ -1,7 +1,7 @@
 ---
 date: 2019-01-08T00:00:00-00:00
 description: Version 0.1.4 is live!
-featured_image: "https://networkreliability.engineering/images/nrelabs.png"
+featured_image: "/images/nrelabs.png"
 tags: []
 title: 'New Year, New Version of NRE Labs'
 show_reading_time: true

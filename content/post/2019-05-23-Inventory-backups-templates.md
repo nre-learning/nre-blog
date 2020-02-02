@@ -1,7 +1,7 @@
 ---
 date: 2019-05-29T00:00:00-00:00
 description: "Workflows for Device Inventory, Config Backup & Template Generation"
-featured_image: "https://networkreliability.engineering/images/nreBlogPost-may19.png"
+featured_image: "/images/nreBlogPost-may19.png"
 tags: [workflow]
 title: "Workflows: Automation First Steps"
 show_reading_time: true

@@ -1,7 +1,7 @@
 ---
 date: 2019-08-12T00:00:00-00:00
 description: ""
-featured_image: "https://networkreliability.engineering/images/2019/08/nrelabs-v1.0.0.png"
+featured_image: "/images/2019/08/nrelabs-v1.0.0.png"
 tags: []
 title: "Big Update - New Platform, New Curriculum, New Infrastructure"
 show_reading_time: true

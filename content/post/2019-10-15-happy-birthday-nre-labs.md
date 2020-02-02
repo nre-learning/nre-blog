@@ -1,7 +1,7 @@
 ---
 date: 2019-10-15T00:00:00-00:00
 description: "A review of NRE Labs' first year of life"
-featured_image: "https://networkreliability.engineering/images/2019/10/birthday.jpg"
+featured_image: "/images/2019/10/birthday.jpg"
 tags: []
 title: "Happy Birthday NRE Labs!"
 show_reading_time: true

@@ -1,7 +1,7 @@
 ---
 date: 2019-03-04T00:00:00-00:00
 description: The Stream is ALIVE!!! IT'S ALIIIVE!!!
-featured_image: "https://networkreliability.engineering/images/nrelabs.png"
+featured_image: "/images/nrelabs.png"
 tags: ["community stream", "stream", "twitch"]
 title: "The First NRE Labs Community Stream!"
 show_reading_time: true

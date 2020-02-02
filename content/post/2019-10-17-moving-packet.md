@@ -1,7 +1,7 @@
 ---
 date: 2019-10-17T00:00:00-00:00
 description: ""
-featured_image: "https://networkreliability.engineering/images/2019/10/metal-grid.jpg"
+featured_image: "/images/2019/10/metal-grid.jpg"
 tags: []
 title: "Going Bare-Metal with NRE Labs"
 show_reading_time: true

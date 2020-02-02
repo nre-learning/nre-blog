@@ -1,7 +1,7 @@
 ---
 date: 2019-04-08T00:00:00-00:00
 description: "Breaking up is hard to do. It's not you...it's our confusing Github Repositories."
-featured_image: "https://networkreliability.engineering/images/repos.png"
+featured_image: "/images/repos.png"
 tags: []
 title: The Antidote Repository Shuffle
 show_reading_time: true

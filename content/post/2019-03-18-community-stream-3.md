@@ -1,7 +1,7 @@
 ---
 date: 2019-03-18T00:00:00-00:00
 description: Validation is yours!
-featured_image: "https://networkreliability.engineering/images/nrelabs.png"
+featured_image: "/images/nrelabs.png"
 tags: ["community stream", "stream", "twitch"]
 title: "Community Stream 3: Validation, Platform, and Other Nerdery"
 show_reading_time: true
