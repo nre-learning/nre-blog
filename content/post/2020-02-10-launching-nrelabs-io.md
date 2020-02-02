@@ -1,7 +1,7 @@
 ---
 date: 2020-02-10T00:00:00-00:00
 description: ""
-featured_image: "/images/2019/10/metal-grid.jpg"
+featured_image: "/images/2020/02/launch.jpg"
 tags: []
 title: "Launching NRELabs.io"
 show_reading_time: true
@@ -75,7 +75,7 @@ For a complete tour, check out the youtube video below:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/K0QxGBomBGA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-We're excited to announce these changes today, and are eager to receive your feedback. Head on over to [nrelabs.io/](https://nrelabs.io/) and [let us know what you think](https://twitter.com/nrelabs)!
+We're excited to announce these changes today, and are eager to receive your feedback. Head on over to [nrelabs.io](https://nrelabs.io/) and [let us know what you think](https://twitter.com/nrelabs)!
 
 If you're interested in getting involved, we have a special page dedicated to learning more at [nrelabs.io/community](https://nrelabs.io/community) - you'll also find a link to our weekly standups there, which are open to all to join - that's usually the best place to get the latest information about the project. If you're interested in creating an interactive lesson of your own, or even add to an existing lesson, there's no contribution too small - join the standups and we'll make sure you get what you need.
 
