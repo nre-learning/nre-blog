@@ -73,7 +73,7 @@ We're going to be releasing a lot more content this year, not just in frequency 
 
 For a complete tour, check out the youtube video below:
 
-{{< youtube K0QxGBomBGA "unconstrained" >}}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/K0QxGBomBGA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 We're excited to announce these changes today, and are eager to receive your feedback. Head on over to [nrelabs.io/](https://nrelabs.io/) and [let us know what you think](https://twitter.com/nrelabs)!
 
