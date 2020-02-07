@@ -10,7 +10,7 @@ authors:
   link: https://twitter.com/mierdin
 ---
 
-( This was originally posted on packetpushers.net) `<INSERT LINK>`
+> (This has been cross-posted from the original post, originally [posted on packetpushers.net](https://packetpushers.net/launching-nrelabs-io/))
 
 Wow, 2019 was a big year for NRE Labs. We had just launched at the end of 2018, so in many ways, 2019 was a year of growing up. We released several new versions of both the NRE Labs curriculum and the underlying Antidote platform, but we also put time and effort into establishing the NRE Labs community itself. We started holding weekly public standups. We created a governance document and a code of conduct. We moved all of the project's communications to our public discussion platform.
 
@@ -18,7 +18,7 @@ I think, looking back, that 2019 was the year of laying the foundation. Like any
 
 The mission for the NRE Labs project in 2020 is to **make it just as easy to contribute NRE Labs content as it is to consume it**. I think we really did a good job in solving the consumption problem for folks looking to learn advanced topics like automation - now, it's time to do the same thing for those that already have this experience, and make it **painless** to share their experience using this hyper-interactive format.
 
-## Launching nrelabs.io
+## New Domain, Improved Navigation
 
 To put us on the right path to this goal, we're announcing some major changes to the NRE Labs site today. You can find this new experience at (the highly anticipated, shorter domain) [nrelabs.io](https://nrelabs.io/), and I believe there are some very significant improvements for both the learner and the lesson author, with many more to come.
 
@@ -35,11 +35,11 @@ We've also moved the project documentation to [docs.nrelabs.io/](https://docs.nr
 
 In the last few years, we've spent a lot of time thinking about how to make the actual learning experience within NRE Labs even more awesome, and I think this new version is a great step forward. We've made a few key improvements in this version:
 
-- Everything is **faster**. The old site worked fairly well, but only on really good internet connections. The new site uses much lighter-weight components, which makes the experience much snappier.
-- The lesson interface is minimalist. As much real estate as possible was given to the terminal and the lesson guide.
-- The general aethetic of the page, from the new terminal style, to the color palette, is much more pleasing. Everything looks and feels much more natural now.
+- Everything is **faster**, and more immersive and responsive. The old site worked fairly well, but only on really good internet connections. The new site uses much lighter-weight components, which makes the experience much snappier.
+- The lesson interface is minimalist. As much real estate as possible was given to the terminal and the lesson guide, and unhelpful distractions have been eliminated.
+- The general aesthetic of the page, from the new terminal style, to the color palette, is much more pleasing. Everything looks and feels much more natural now.
 
-Also, I am so excited to **finally** announce - NRE LABS IS NOW MOBILE FRIENDLY!
+Also, I am so excited to **finally** announce that NRE LABS IS NOW MOBILE FRIENDLY!
 
 <div style="text-align:center;"><img src="/images/2020/02/celebrate.gif"style="width: 700px;display: block;margin: 0 auto;" ></div>
 
