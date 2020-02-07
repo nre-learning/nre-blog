@@ -33,8 +33,6 @@ We've also moved the project documentation to [docs.nrelabs.io/](https://docs.nr
 
 ## Greatly Improved Learner Experience
 
-We will be going into much greater detail in a future blog post, but I do want to take a second to call attention to something. The new experience for the learner is an absolute night and day improvement. I mean, it's not even close. Seriously, if you ever used the old site, go check out the new  lesson and you'll see what I mean.
-
 In the last few years, we've spent a lot of time thinking about how to make the actual learning experience within NRE Labs even more awesome, and I think this new version is a great step forward. We've made a few key improvements in this version:
 
 - Everything is **faster**. The old site worked fairly well, but only on really good internet connections. The new site uses much lighter-weight components, which makes the experience much snappier.
