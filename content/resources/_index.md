@@ -13,7 +13,6 @@ Whether you’re just interested in learning more about network reliability engi
 * [Intro to Network Reliability Engineering]({{< relref introduction >}})
 * [Community Interviews](https://www.youtube.com/watch?v=l_TUYSkZcv4&list=PLjM9FuOtKYVhXixs9rEjf7brmPDSWPe8R)
 * [Blog]({{< relref post >}})
-* [Twitter](https://twitter.com/NRELabs)
 * [NRE Labs In The Wild]({{< relref "community/nre-labs-in-the-wild" >}}) {{< /link-list >}}
   {{< /canister >}}
 
