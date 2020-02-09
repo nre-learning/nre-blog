@@ -1,7 +1,7 @@
 baseURL = "https://nrelabs.io/"
 languageCode = "en-us"
 theme = "nre-hugo-theme"
-googleAnalytics = "UA-120903857-1"
+googleAnalytics = "UA-157122383-1"
 title = "NRE Labs"
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
