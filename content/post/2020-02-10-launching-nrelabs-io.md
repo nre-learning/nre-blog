@@ -10,7 +10,7 @@ authors:
   link: https://twitter.com/mierdin
 ---
 
-> (This has been cross-posted from the original post, originally [posted on packetpushers.net](https://packetpushers.net/launching-nrelabs-io/))
+> (This has been cross-posted from the original post, [located at packetpushers.net](https://packetpushers.net/launching-nrelabs-io/))
 
 Wow, 2019 was a big year for NRE Labs. We had just launched at the end of 2018, so in many ways, 2019 was a year of growing up. We released several new versions of both the NRE Labs curriculum and the underlying Antidote platform, but we also put time and effort into establishing the NRE Labs community itself. We started holding weekly public standups. We created a governance document and a code of conduct. We moved all of the project's communications to our public discussion platform.
 
@@ -33,7 +33,7 @@ We've also moved the project documentation to [docs.nrelabs.io/](https://docs.nr
 
 ## Greatly Improved Learner Experience
 
-In the last few years, we've spent a lot of time thinking about how to make the actual learning experience within NRE Labs even more awesome, and I think this new version is a great step forward. We've made a few key improvements in this version:
+In the last few months, we've spent a lot of time thinking about how to make the actual learning experience within NRE Labs even more awesome, and I think this new version is a great step forward. We've made a few key improvements in this version:
 
 - Everything is **faster**, and more immersive and responsive. The old site worked fairly well, but only on really good internet connections. The new site uses much lighter-weight components, which makes the experience much snappier.
 - The lesson interface is minimalist. As much real estate as possible was given to the terminal and the lesson guide, and unhelpful distractions have been eliminated.
@@ -57,7 +57,7 @@ The improvements to the web front-end were primarily aimed at improving the user
 - The entire web front-end, including the back-end web proxy for lesson connectivity via SSH, is written in Javascript. No more black-box components. If you have a modern web skillset, there should be very few surprises here.
 - Everything is built to be modular. Where before we had everything in one monolithic `antidote-web` repo, we now have a separate repository for managing the discrete components, another for styles, another for localization strings, etc. This means if you want to contribute to one of these, you don't have to concern yourself with the other repositories.
 
-We will be going into more detail in future blogs on this, but suffice it to say we're not even close to done. As mentioned before, 2020 is the year we really focus on improving the contributor experience - so consider this only a first step.
+We will be going into more detail in future blogs on this, but in short, we're only getting started. As mentioned before, 2020 is the year we really focus on improving the contributor experience - so consider this only a first step.
 
 ## New Lessons
 
@@ -79,8 +79,4 @@ We're excited to announce these changes today, and are eager to receive your fee
 If you're interested in getting involved, we have a special page dedicated to learning more at [nrelabs.io/community](https://nrelabs.io/community) - you'll also find a link to our weekly standups there, which are open to all to join - that's usually the best place to get the latest information about the project. If you're interested in creating an interactive lesson of your own, or even add to an existing lesson, there's no contribution too small - join the standups and we'll make sure you get what you need.
 
 Lastly you can follow us on twitter [@NRELabs](https://twitter.com/nrelabs) where we post all our new content updates, and our DMs are open if you want to leave some constructive feedback.
-
-
-
-
 
