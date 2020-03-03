@@ -3,6 +3,9 @@ menu:
     main:
         name: "Home"
         weight: 1
+sitemap:
+  changefreq: monthly
+  priority: 0.7
 ---
 
 {{< hero >}}
