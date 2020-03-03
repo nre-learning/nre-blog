@@ -5,7 +5,7 @@ menu:
         weight: 1
 sitemap:
   changefreq: monthly
-  priority: 0.7
+  priority: 1.0
 ---
 
 {{< hero >}}
