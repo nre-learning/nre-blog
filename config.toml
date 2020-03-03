@@ -13,7 +13,7 @@ Paginate = 6 # this is set low for demonstrating with dummy content. Set to a hi
 enableRobotsTXT = true
 
 [sitemap]
-  changefreq = "monthly"
+  changefreq = "weekly"
   priority = 0.5
   filename = "sitemap.xml"
 
@@ -31,7 +31,7 @@ enableRobotsTXT = true
   highlightStyle = "solarized-dark"
   highlightLanguages = ["go", "python", "haskell", "kotlin", "scala", "swift"]
   favicon = ""
-  description = "Making Networks More Reliable Through Automation"
+  description = "Learn automation by DOING it - all in the browser, for free."
   background_color_class = "bg-black"
 
 [outputs]
