@@ -1,6 +1,9 @@
 ---
 title: Resources
 showPageList: false
+sitemap:
+  changefreq: monthly
+  priority: 0.7
 ---
 Whether you’re just interested in learning more about network reliability engineering or thinking about getting more engaged with the NRE Labs community, we have a range of resources for you to check out.
 

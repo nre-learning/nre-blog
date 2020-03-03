@@ -1,5 +1,8 @@
 ---
 title: About NRE Labs
+sitemap:
+  changefreq: monthly
+  priority: 1.0
 ---
 {{< article >}}
 

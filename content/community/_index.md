@@ -1,5 +1,8 @@
 ---
 title: Community
+sitemap:
+  changefreq: monthly
+  priority: 0.9
 ---
 Welcome to the NRE Labs community. As a collaborative group of developers and users, we focus on simplifying the journey to network reliability engineering for working NetOps engineers. Developers and users alike can get involved and contribute in a variety of ways, from ideas to code to community support.
 
