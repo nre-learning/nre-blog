@@ -1,5 +1,5 @@
 ---
-title: Stats
+title: Lesson Statistics
 ---
 All graphs are showing data accumulated over the last trailing 7 days from today unless otherwise indicated.
 
