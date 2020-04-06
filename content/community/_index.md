@@ -35,13 +35,13 @@ Welcome to the NRE Labs community. As a collaborative group of developers and us
 
 {{< canister color="medium-gray" >}}
 
-### Policies
+### Policies and Tools
 
 {{<link-list>}}
 
 * [Governance Document](https://github.com/nre-learning/proposals/blob/master/governance.md)
-* [Code of Conduct](https://github.com/nre-learning/proposals/blob/master/codeofconduct.md) {{< /link-list >}} {{< /canister >}} {{< /three-col >}}
-
+* [Code of Conduct](https://github.com/nre-learning/proposals/blob/master/codeofconduct.md)
+* [NRE Labs Statistics]({{< relref "community/stats" >}}) {{< /link-list >}} {{< /canister >}} {{< /three-col >}}
 <h3 class="inline-block">Latest Videos</h3>
 <a href="https://www.youtube.com/channel/UCbfZq3sDGx6gmv7KRrhRh4g"
    style="margin-left: 20px;">
