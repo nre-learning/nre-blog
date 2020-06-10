@@ -12,7 +12,6 @@ Welcome to the NRE Labs community. As a collaborative group of developers and us
 
 {{<link-list>}}
 
-* [Weekly Community Meetings](https://discuss.nrelabs.io/t/about-nre-labs-weekly-standups/84)
 * [Community Forums](https://discuss.nrelabs.io)
 * [Twitter](https://twitter.com/NRELabs) {{< /link-list >}} {{< /canister >}}     
 
@@ -24,10 +23,9 @@ Welcome to the NRE Labs community. As a collaborative group of developers and us
 
 * [Getting Started](#) {{< link-list nested="true" >}}
 
-  * [For Curriculum Contributors]({{< relref "resources/contributing-lessons" >}})
+  * \[For Curriculum Contributors]({{< relref "resources/contributing-lessons" >}})
   * [For Antidote Developers](https://docs.nrelabs.io/antidote/development)
-  * [For Non-Developers](https://docs.nrelabs.io/other-resources/help-im-not-a-developer)
-    {{< /link-list >}}
+  * [For Non-Developers](https://docs.nrelabs.io/other-resources/help-im-not-a-developer) {{< /link-list >}}
 * [GitHub](https://github.com/nre-learning)
 * [Antidote Platform Documentation](https://docs.nrelabs.io/antidote/platform-documentation/antidote-architecture)
 
@@ -41,12 +39,7 @@ Welcome to the NRE Labs community. As a collaborative group of developers and us
 
 * [Governance Document](https://github.com/nre-learning/proposals/blob/master/governance.md)
 * [Code of Conduct](https://github.com/nre-learning/proposals/blob/master/codeofconduct.md)
-* [NRE Labs Statistics]({{< relref "community/stats" >}}) {{< /link-list >}} {{< /canister >}} {{< /three-col >}}
-<h3 class="inline-block">Latest Videos</h3>
-<a href="https://www.youtube.com/channel/UCbfZq3sDGx6gmv7KRrhRh4g"
-   style="margin-left: 20px;">
-    View more
-</a>
+* \[NRE Labs Statistics]({{< relref "community/stats" >}}) {{< /link-list >}} {{< /canister >}} {{< /three-col >}}
 
 {{< latest-youtube channelId="UCbfZq3sDGx6gmv7KRrhRh4g" >}}
 
