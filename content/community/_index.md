@@ -13,6 +13,7 @@ Welcome to the NRE Labs community. As a collaborative group of developers and us
 {{<link-list>}}
 
 * [Community Forums](https://discuss.nrelabs.io)
+* [Gitter](https://gitter.im/nre-labs/community)
 * [Twitter](https://twitter.com/NRELabs) {{< /link-list >}} {{< /canister >}}     
 
 {{< canister color="medium-gray" >}}
