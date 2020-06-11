@@ -22,7 +22,7 @@ NRE Labs is an open source educational project focused on making network automat
 {{< /right >}}
 {{< /hero >}}
 
-{{< advisor >}}
+<!-- {{< advisor >}} -->
 
 {{< three-col >}}
 {{< canister color="primary" >}}   
