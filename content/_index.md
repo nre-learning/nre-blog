@@ -22,7 +22,8 @@ NRE Labs is an open source educational project focused on making network automat
 {{< /right >}}
 {{< /hero >}}
 
-{{< advisor >}}
+<!-- Please see https://github.com/nre-learning/nre-blog/issues/61 for history on why this is commented out -->
+<!-- {{< advisor >}} -->
 
 {{< three-col >}}
 {{< canister color="primary" >}}   
