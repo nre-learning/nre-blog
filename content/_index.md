@@ -16,10 +16,13 @@ sitemap:
 
 NRE Labs is an open source educational project focused on making network automation and the emerging discipline of network reliability engineering (NRE) accessible for everyone. Through short, simple exercises, all right here in your browser, you can learn the tools, skills, and processes that will put you on the path to becoming a Network Reliability Engineer.
 
-<!-- This was placed here because of the removal of the advisor, so we still have a central component that draws user to the curriculum. Should probably be removed when the below issue regarding the advisor is fixed. -->
-<a class="btn secondary" href="https://go.nrelabs.io/catalog/" style="margin-top: 10px;">
+<!--
+This was placed here because of the removal of the advisor, so we still have a central component that draws user to the curriculum. Should probably be removed when the below issue regarding the advisor is fixed.
+EDIT: Subsequently removed for project shutdown
+-->
+<!-- <a class="btn secondary" href="https://go.nrelabs.io/catalog/" style="margin-top: 10px;">
   Find Lesson Content
-</a>
+</a> -->
 {{< /left >}}
 
 {{< right>}}
